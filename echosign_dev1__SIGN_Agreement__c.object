@@ -1,0 +1,2314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+        <fullName>Cancellation_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Cancellation Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No signed Quote</fullName>
+                    <default>false</default>
+                    <label>No signed Quote</label>
+                </value>
+                <value>
+                    <fullName>Rebate issue</fullName>
+                    <default>false</default>
+                    <label>Rebate issue</label>
+                </value>
+				<value>
+                    <fullName>Change of Dealer</fullName>
+                    <default>false</default>
+                    <label>Change of Dealer</label>
+                </value>
+                <value>
+                    <fullName>Life event</fullName>
+                    <default>false</default>
+                    <label>Life event</label>
+                </value>
+                <value>
+                    <fullName>Customer unresponsive</fullName>
+                    <default>false</default>
+                    <label>Customer unresponsive</label>
+                </value>
+                <value>
+                    <fullName>Customer chose competitor</fullName>
+                    <default>false</default>
+                    <label>Customer chose competitor</label>
+                </value>
+                <value>
+                    <fullName>Customer not ready to go solar</fullName>
+                    <default>false</default>
+                    <label>Customer not ready to go solar</label>
+                </value>
+                <value>
+                    <fullName>Customer did not take required action</fullName>
+                    <default>false</default>
+                    <label>Customer did not take required action</label>
+                </value>
+                <value>
+                    <fullName>Customer not comfortable with terms</fullName>
+                    <default>false</default>
+                    <label>Customer not comfortable with terms</label>
+                </value>
+                <value>
+                    <fullName>Customer decided to switch deal types</fullName>
+                    <default>false</default>
+                    <label>Customer decided to switch deal types</label>
+                </value>
+                <value>
+                    <fullName>Customer canceled due to financial reasons</fullName>
+                    <default>false</default>
+                    <label>Customer canceled due to financial reasons</label>
+                </value>
+                <value>
+                    <fullName>Selling dealer’s commitment to customer not met</fullName>
+                    <default>false</default>
+                    <label>Selling dealer’s commitment to customer not met</label>
+                </value>
+                <value>
+                    <fullName>DQ roof complications</fullName>
+                    <default>false</default>
+                    <label>DQ roof complications</label>
+                </value>
+                <value>
+                    <fullName>DQ structural integrity</fullName>
+                    <default>false</default>
+                    <label>DQ structural integrity</label>
+                </value>
+                <value>
+                    <fullName>DQ electrical complications</fullName>
+                    <default>false</default>
+                    <label>DQ electrical complications</label>
+                </value>
+                <value>
+                    <fullName>DQ unpermitted structure</fullName>
+                    <default>false</default>
+                    <label>DQ unpermitted structure</label>
+                </value>
+                <value>
+                    <fullName>Unexpected change order</fullName>
+                    <default>false</default>
+                    <label>Unexpected change order</label>
+                </value>
+                <value>
+                    <fullName>Process took too long – AHJ/Utility</fullName>
+                    <default>false</default>
+                    <label>Process took too long – AHJ/Utility</label>
+                </value>
+                <value>
+                    <fullName>Installation not completed in timely manner</fullName>
+                    <default>false</default>
+                    <label>Installation not completed in timely manner</label>
+                </value>
+                <value>
+                    <fullName>Missed Site Survey Appointment</fullName>
+                    <default>false</default>
+                    <label>Missed Site Survey Appointment</label>
+                </value>
+				<value>
+                    <fullName>Unenforceable Contract</fullName>
+                    <default>false</default>
+                    <label>Unenforceable Contract</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+  <fields>
+        <fullName>Homeowner_Data__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>NewHomes customer data</description>
+        <externalId>false</externalId>
+        <label>Homeowner Data</label>
+        <referenceTo>Customer_Portal_User_Data__c</referenceTo>
+        <relationshipLabel>Agreements</relationshipLabel>
+        <relationshipName>Agreements</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+  <fields>
+        <fullName>Homeowner_Signature_Merge_Date__c</fullName>
+        <description>This field value is used in merge mapping of interconnection document</description>
+        <externalId>false</externalId>
+        <formula>TEXT( MONTH( TODAY() ) ) &amp; "/" &amp; TEXT( DAY( TODAY() ) ) &amp; "/" &amp; TEXT( YEAR( TODAY() ) )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Homeowner Signature Merge Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+  <listViews>
+        <fullName>echosign_dev1__All</fullName>
+        <columns>NAME</columns>
+        <columns>echosign_dev1__ErrorMessage__c</columns>
+        <columns>Agreement_Type_2__c</columns>
+        <columns>echosign_dev1__StatusVisible__c</columns>
+        <columns>echosign_dev1__Contract__c</columns>
+        <columns>echosign_dev1__DateSentDate__c</columns>
+        <columns>echosign_dev1__DateSignedDate__c</columns>
+        <columns>echosign_dev1__DateViewedDate__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>echosign_dev1__Result__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+        <sharedTo>
+            <roleAndSubordinatesInternal>InternalSunPower</roleAndSubordinatesInternal>
+        </sharedTo>
+    </listViews>
+  <recordTypes>
+        <fullName>Cancelled</fullName>
+        <active>true</active>
+        <label>Cancelled</label>
+        <picklistValues>
+            <picklist>Cancellation_Reason__c</picklist>            
+            <values>
+                <fullName>Change of Dealer</fullName>
+                <default>false</default>
+            </values>
+			<values>
+                <fullName>Customer canceled due to financial reasons</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer chose competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer decided to switch deal types</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer did not take required action</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer not comfortable with terms</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer not ready to go solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer unresponsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ electrical complications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ roof complications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ structural integrity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ unpermitted structure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation not completed in timely manner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Life event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Missed Site Survey Appointment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process took too long – AHJ/Utility</fullName>
+                <default>false</default>
+            </values>			
+            <values>
+                <fullName>Rebate issue</fullName>
+                <default>false</default>
+            </values>
+			<values>
+                <fullName>Selling dealer's commitment to customer not met</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unexpected change order</fullName>
+                <default>false</default>
+            </values>
+			<values>
+                <fullName>Unenforceable Contract</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Change_Order_Type__c</picklist>
+            <values>
+                <fullName>Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NTS Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Notice of Cancellation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Created_By_Partner_Poratl_User__c</picklist>
+            <values>
+                <fullName>N</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+		<picklistValues>
+            <picklist>On_Hold_Reason_s__c</picklist>
+            <values>
+                <fullName>Awaiting clarification for multiple signed contracts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Lending Compliance updates</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract details clarification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit Status - Pending Credit Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit check expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lending Agreement not signed by homeowner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Needs co-borrower signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Homes Lease Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Title %2F property information can%27t be found</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Title %2F property information needs validation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Welcome call not completed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Signed_Within_5_Days__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>State__c</picklist>
+            <values>
+                <fullName>AK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ME</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ND</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NJ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WY</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Validation_Status__c</picklist>
+            <values>
+                <fullName>Hold - Awaiting Clarification for Multiple Signed Contracts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold - Contract Details Clarification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold - Expired Credit Check</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold - New Homes Lease Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold - Property Information Clarification</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__RemindRecipient__c</picklist>
+            <values>
+                <fullName>Every Day%2C Until Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Every Week%2C Until Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Never</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__SignatureOrder__c</picklist>
+            <values>
+                <fullName>I sign%2C then the Recipient signs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recipient signs%2C then I sign</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__SignatureType__c</picklist>
+            <values>
+                <fullName>Written Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>e-Signature</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__Status__c</picklist>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+			<values>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out for Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting for Counter-Signature</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+  <recordTypes>
+        <fullName>Interconnection</fullName>
+        <active>true</active>
+        <description>Homeowners Interconnection agreement</description>
+        <label>Interconnection</label>
+        <picklistValues>
+            <picklist>Amendment_Type__c</picklist>
+            <values>
+                <fullName>Lessee</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Production</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Cancellation_Reason__c</picklist>
+            <values>
+                <fullName>Change of Dealer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer canceled due to financial reasons</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer chose competitor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer decided to switch deal types</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer did not take required action</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer not comfortable with terms</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer not ready to go solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer unresponsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ electrical complications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ roof complications</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ structural integrity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ unpermitted structure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation not completed in timely manner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Life event</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Missed Site Survey Appointment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No signed Quote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process took too long %E2%80%93 AHJ%2FUtility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rebate issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Selling dealer%E2%80%99s commitment to customer not met</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unexpected change order</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Change_Order_Type__c</picklist>
+            <values>
+                <fullName>Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Economic Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homeowner Information Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NTS Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Notice of Cancellation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Created_By_Partner_Poratl_User__c</picklist>
+            <values>
+                <fullName>N</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Demand_Prealable_Status__c</picklist>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disapproved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>On_Hold_Reason_s__c</picklist>
+            <values>
+                <fullName>Awaiting clarification for multiple signed contracts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Lending Compliance updates</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract details clarification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit Status - Pending Credit Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit check expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lending Agreement not signed by homeowner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Needs co-borrower signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Homes Lease Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Title %2F property information can%27t be found</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Title %2F property information needs validation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Welcome call not completed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Signed_Within_5_Days__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>State__c</picklist>
+            <values>
+                <fullName>AK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ME</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ND</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NJ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WY</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>UnderWriting__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disapproved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Underwriting_Approval_Email__c</picklist>
+            <values>
+                <fullName>Not Sent</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Validation_Status__c</picklist>
+            <values>
+                <fullName>Awaiting For Co-Applicant%27s Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold - Awaiting Clarification for Multiple Signed Contracts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold - Consumer Lending Compliance Updates</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold - Contract Details Clarification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold - Expired Credit Check</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold - New Homes Lease Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold - Property Information Clarification</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Welcome_Call__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attempted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trying to Contact</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unable to Contact</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Welcome_Email__c</picklist>
+            <values>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__AgreementLocale__c</picklist>
+            <values>
+                <fullName>Chinese %28China%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Chinese %28Taiwan%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Danish %28Denmark%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dutch %28Netherlands%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>English %28United Kingdom%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>English %28United States%29</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Finnish %28Finland%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>French %28France%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>German %28Germany%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Icelandic %28Iceland%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Indonesian %28Indonesia%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Italian %28Italy%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Japanese %28Japan%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Korean %28South Korea%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Malay %28Malaysia%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Norwegian %28Norway%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Polish %28Poland%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portuguese %28Brazil%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portuguese %28Portugal%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Russian %28Russia%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spanish %28Spain%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Swedish %28Sweden%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Thai %28Thailand%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vietnamese %28Vietnam%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__Background_Action__c</picklist>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Remind</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__Data_Mapping_Result__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__External_Signers_Verification_Method__c</picklist>
+            <values>
+                <fullName>Knowledge based authentication</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Password to sign agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web identity authentication</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__Internal_Signers_Verification_Method__c</picklist>
+            <values>
+                <fullName>Knowledge based authentication</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Password to sign agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web identity authentication</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__Merge_Mapping_Result__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Failed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Processing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__On_Load_Action__c</picklist>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Remind</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Send</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Update</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>View</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__Recipient_Signing_Order__c</picklist>
+            <values>
+                <fullName>Parallel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sequential</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__RemindRecipient__c</picklist>
+            <values>
+                <fullName>Every Day%2C Until Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Every Week%2C Until Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Never</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__SignatureOrder__c</picklist>
+            <values>
+                <fullName>I sign%2C then the Recipient signs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recipient signs%2C then I sign</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__SignatureType__c</picklist>
+            <values>
+                <fullName>Written Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>e-Signature</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__Signature_Flow__c</picklist>
+            <values>
+                <fullName>Any Order</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order Entered</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__Status__c</picklist>
+            <values>
+                <fullName>Awaiting Counter Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out for Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting for Counter-Signature</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+  <recordTypes>
+        <fullName>Partner_Agreement</fullName>
+        <active>true</active>
+        <label>Partner Agreement</label>
+        <picklistValues>
+            <picklist>Created_By_Partner_Poratl_User__c</picklist>
+            <values>
+                <fullName>N</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+		<picklistValues>
+            <picklist>On_Hold_Reason_s__c</picklist>
+            <values>
+                <fullName>Awaiting clarification for multiple signed contracts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Lending Compliance updates</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract details clarification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit Status - Pending Credit Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit check expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lending Agreement not signed by homeowner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Needs co-borrower signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Homes Lease Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Title %2F property information can%27t be found</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Title %2F property information needs validation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Welcome call not completed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Signed_Within_5_Days__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>State__c</picklist>
+            <values>
+                <fullName>AK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ME</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ND</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NJ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WY</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Validation_Status__c</picklist>
+            <values>
+                <fullName>Hold - Awaiting Clarification for Multiple Signed Contracts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold - Contract Details Clarification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold - Expired Credit Check</fullName>
+                <default>false</default>
+            </values>            
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__AgreementLocale__c</picklist>
+            <values>
+                <fullName>Dutch %28Netherlands%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>English %28United Kingdom%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>English %28United States%29</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Finnish %28Finland%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>French %28France%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>German %28Germany%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Italian %28Italy%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Japanese %28Japan%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Spanish %28Spain%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__RemindRecipient__c</picklist>
+            <values>
+                <fullName>Every Day%2C Until Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Every Week%2C Until Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Never</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__SignatureOrder__c</picklist>
+            <values>
+                <fullName>I sign%2C then the Recipient signs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recipient signs%2C then I sign</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__SignatureType__c</picklist>
+            <values>
+                <fullName>Written Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>e-Signature</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__Status__c</picklist>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Out for Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting for Counter-Signature</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+  <recordTypes>
+        <fullName>Termination_Agreement</fullName>
+        <active>true</active>
+        <label>Termination Agreement</label>
+        <picklistValues>
+            <picklist>Created_By_Partner_Poratl_User__c</picklist>
+            <values>
+                <fullName>N</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Y</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+		<picklistValues>
+            <picklist>On_Hold_Reason_s__c</picklist>
+			<values>
+                <fullName>Awaiting clarification for multiple signed contracts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Consumer Lending Compliance updates</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract details clarification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit Status - Pending Credit Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Credit check expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lending Agreement not signed by homeowner</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Needs co-borrower signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Homes Lease Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Title %2F property information can%27t be found</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Title %2F property information needs validation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Welcome call not completed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Signed_Within_5_Days__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>State__c</picklist>
+            <values>
+                <fullName>AK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ME</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ND</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NJ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WY</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Validation_Status__c</picklist>
+            <values>
+                <fullName>Hold - Awaiting Clarification for Multiple Signed Contracts</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold - Contract Details Clarification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold - Expired Credit Check</fullName>
+                <default>false</default>
+            </values>            
+            <values>
+                <fullName>Hold - New Homes Lease Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold - Property Information Clarification</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__RemindRecipient__c</picklist>
+            <values>
+                <fullName>Every Day%2C Until Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Every Week%2C Until Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Never</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__SignatureOrder__c</picklist>
+            <values>
+                <fullName>I sign%2C then the Recipient signs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Recipient signs%2C then I sign</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__SignatureType__c</picklist>
+            <values>
+                <fullName>Written Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>e-Signature</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>echosign_dev1__Status__c</picklist>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Out for Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting for Counter-Signature</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>

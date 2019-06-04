@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <businessProcesses>
+        <fullName>Commercial</fullName>
+        <description>Commercial Sales Process</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>0%25 - Dead%2C Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>00 - Qualified Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>01 - Discovery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>02 - Indicative Proposal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>03 - Firm Offer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>04 - Negotiate Binding Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>05 - Agreements Finalized%2FImminent PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>06 - Closed Won - Contract Signed%2FPO Placed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>07 %E2%80%93 Closed Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>08 - Closed Won - PV Delivered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>100%25 - Won</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>12%25 - Qualified Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25%25 - Design Initiated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25%25 - Pre-Purchase Review Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50%25 - BOM%2FQuote Issued</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50%25 - Quote %2F Proposal Submitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>75%25 - Imminent PO %2F Agreements Finalized</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>75%25 - Verbal commitment of imminent PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90%25 - PO Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>90%25 - PO Received %2F Contracts Signed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Future Follow-up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installation Completed</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+  <businessProcesses>
+        <fullName>Home Owner</fullName>
+        <description>Home Owner / Residential Sales Process</description>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Appointment Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appointment Missed- Rescheduled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Appointment No-Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contacted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contacted - Not Reached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Signed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flex Community - No Upgrade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installation Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Opportunity Lost</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verbal Commitment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visit Completed</fullName>
+            <default>false</default>
+        </values>
+	<values>
+            <fullName>Contract On-Hold</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+  <businessProcesses>
+        <fullName>Systems</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>00 - Qualified Lead</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>01 - Discovery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>02 - Indicative Proposal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>03 - Firm Offer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>04 - Negotiate Binding Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>05 - Agreements Finalized%2FImminent PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>06 - Closed Won - Contract Signed%2FPO Placed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>07 %E2%80%93 Closed Lost</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+  <fields>
+        <fullName>Reason_Won_Lost__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason Won/Lost</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>StageName</controllingField>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Appointment No Show</fullName>
+                    <default>false</default>
+                    <label>Appointment No Show</label>
+                </value>
+                <value>
+                    <fullName>Best Economics</fullName>
+                    <default>false</default>
+                    <label>Best Economics</label>
+                </value>
+                <value>
+                    <fullName>Best Price</fullName>
+                    <default>false</default>
+                    <label>Best Price</label>
+                </value>
+                <value>
+                    <fullName>Best Product</fullName>
+                    <default>false</default>
+                    <label>Best Product</label>
+                </value>
+                <value>
+                    <fullName>Best Services</fullName>
+                    <default>false</default>
+                    <label>Best Services</label>
+                </value>
+                <value>
+                    <fullName>Competitive Financing</fullName>
+                    <default>false</default>
+                    <label>Competitive Financing</label>
+                </value>
+                <value>
+                    <fullName>Competitor specified on RFP or design</fullName>
+                    <default>false</default>
+                    <label>Competitor specified on RFP or design</label>
+                </value>
+                <value>
+                    <fullName>Constrained Resources / Priorities Re-Adjusted</fullName>
+                    <default>false</default>
+                    <label>Constrained Resources / Priorities Re-Adjusted</label>
+                </value>
+                <value>
+                    <fullName>Development Blocked</fullName>
+                    <default>false</default>
+                    <label>Development Blocked</label>
+                </value>
+                <value>
+                    <fullName>Dormant</fullName>
+                    <default>false</default>
+                    <label>Dormant</label>
+                </value>
+                <value>
+                    <fullName>Duplicate</fullName>
+                    <default>false</default>
+                    <label>Duplicate/Ignore</label>
+                </value>
+                <value>
+                    <fullName>Economics</fullName>
+                    <default>false</default>
+                    <label>Economics</label>
+                </value>
+                <value>
+                    <fullName>FR - Doesn't want to rent their roof</fullName>
+                    <default>false</default>
+                    <label>FR - Doesn't want to rent their roof</label>
+                </value>
+                <value>
+                    <fullName>FR - Rent too low</fullName>
+                    <default>false</default>
+                    <label>FR - Rent too low</label>
+                </value>
+                <value>
+                    <fullName>Insufficient budget</fullName>
+                    <default>false</default>
+                    <label>Insufficient budget</label>
+                </value>
+                <value>
+                    <fullName>Interested, but not now</fullName>
+                    <default>false</default>
+                    <label>Interested, but not now</label>
+                </value>
+                <value>
+                    <fullName>Invalid contact information</fullName>
+                    <default>false</default>
+                    <label>Invalid contact information</label>
+                </value>
+                <value>
+                    <fullName>Lead did not want to be contacted</fullName>
+                    <default>false</default>
+                    <label>Lead did not want to be contacted</label>
+                </value>
+                <value>
+                    <fullName>Lead not responsive</fullName>
+                    <default>false</default>
+                    <label>Lead not responsive</label>
+                </value>
+                <value>
+                    <fullName>Lost to competitor</fullName>
+                    <default>false</default>
+                    <label>Lost to competitor</label>
+                </value>
+                <value>
+                    <fullName>Lost to Dealer</fullName>
+                    <default>false</default>
+                    <label>Lost to Dealer</label>
+                </value>
+                <value>
+                    <fullName>Low electric bill</fullName>
+                    <default>false</default>
+                    <label>Low electric bill</label>
+                </value>
+                <value>
+                    <fullName>Missing services</fullName>
+                    <default>false</default>
+                    <label>Missing services</label>
+                </value>
+                <value>
+                    <fullName>New Homes – Post Close</fullName>
+                    <default>false</default>
+                    <label>New Homes – Post Close</label>
+                </value>
+                <value>
+                    <fullName>No Allocation</fullName>
+                    <default>false</default>
+                    <label>No Allocation</label>
+                </value>
+                <value>
+                    <fullName>Non-Competitive Financing</fullName>
+                    <default>false</default>
+                    <label>Non-Competitive Financing</label>
+                </value>
+                <value>
+                    <fullName>Non-economics</fullName>
+                    <default>false</default>
+                    <label>Non-economics</label>
+                </value>
+                <value>
+                    <fullName>No response</fullName>
+                    <default>false</default>
+                    <label>No response</label>
+                </value>
+                <value>
+                    <fullName>Not Best Economics</fullName>
+                    <default>false</default>
+                    <label>Not Best Economics</label>
+                </value>
+                <value>
+                    <fullName>Not candidate for solar - Credit</fullName>
+                    <default>false</default>
+                    <label>Not candidate for solar - Credit</label>
+                </value>
+                <value>
+                    <fullName>Not candidate for solar - Low electric bill</fullName>
+                    <default>false</default>
+                    <label>Not candidate for solar - Low electric bill</label>
+                </value>
+                <value>
+                    <fullName>Not candidate for solar - Shading</fullName>
+                    <default>false</default>
+                    <label>Not candidate for solar - Shading</label>
+                </value>
+                <value>
+                    <fullName>Not Competitive on Non-Price Attributes</fullName>
+                    <default>false</default>
+                    <label>Not Competitive on Non-Price Attributes</label>
+                </value>
+                <value>
+                    <fullName>Not Lost to Competitor</fullName>
+                    <default>false</default>
+                    <label>Not Lost to Competitor</label>
+                </value>
+                <value>
+                    <fullName>Not Price Competitive</fullName>
+                    <default>false</default>
+                    <label>Not Price Competitive</label>
+                </value>
+                <value>
+                    <fullName>Not ready to buy follow up in 3 months</fullName>
+                    <default>false</default>
+                    <label>Not ready to buy follow up in 3 months</label>
+                </value>
+                <value>
+                    <fullName>Not Strongest Relationship</fullName>
+                    <default>false</default>
+                    <label>Not Strongest Relationship</label>
+                </value>
+                <value>
+                    <fullName>Nurture - interested, but not now</fullName>
+                    <default>false</default>
+                    <label>Nurture - interested, but not now</label>
+                </value>
+                <value>
+                    <fullName>Opportunity Acquired by Competitor</fullName>
+                    <default>false</default>
+                    <label>Opportunity Acquired by Competitor</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Other (provide notes in field)</fullName>
+                    <default>false</default>
+                    <label>Other (provide notes in field)</label>
+                </value>
+                <value>
+                    <fullName>Outside of business scope</fullName>
+                    <default>false</default>
+                    <label>Outside of business scope</label>
+                </value>
+                <value>
+                    <fullName>Outside of coverage area</fullName>
+                    <default>false</default>
+                    <label>Outside of coverage area</label>
+                </value>
+                <value>
+                    <fullName>Prefer to buy cash</fullName>
+                    <default>false</default>
+                    <label>Prefer to buy cash</label>
+                </value>
+                <value>
+                    <fullName>Price</fullName>
+                    <default>false</default>
+                    <label>Price</label>
+                </value>
+                <value>
+                    <fullName>Product Fit or Missing Feature</fullName>
+                    <default>false</default>
+                    <label>Product Fit or Missing Feature</label>
+                </value>
+                <value>
+                    <fullName>Relationship</fullName>
+                    <default>false</default>
+                    <label>Relationship</label>
+                </value>
+                <value>
+                    <fullName>Renter</fullName>
+                    <default>false</default>
+                    <label>Renter</label>
+                </value>
+                <value>
+                    <fullName>Roof orientation</fullName>
+                    <default>false</default>
+                    <label>Roof orientation</label>
+                </value>
+                <value>
+                    <fullName>SAR Cancelled</fullName>
+                    <default>false</default>
+                    <label>SAR Cancelled</label>
+                </value>
+                <value>
+                    <fullName>SAR Rejected</fullName>
+                    <default>false</default>
+                    <label>SAR Rejected</label>
+                </value>
+                <value>
+                    <fullName>Shading</fullName>
+                    <default>false</default>
+                    <label>Shading</label>
+                </value>
+                <value>
+                    <fullName>Strongest Relationship</fullName>
+                    <default>false</default>
+                    <label>Strongest Relationship</label>
+                </value>
+                <value>
+                    <fullName>SunPower Abandon Project / Development</fullName>
+                    <default>false</default>
+                    <label>SunPower Abandon Project / Development</label>
+                </value>
+                <value>
+                    <fullName>System Not Installed</fullName>
+                    <default>false</default>
+                    <label>System Not Installed</label>
+                </value>
+                <value>
+                    <fullName>Track record</fullName>
+                    <default>false</default>
+                    <label>Track record</label>
+                </value>
+                <value>
+                    <fullName>Undecided</fullName>
+                    <default>false</default>
+                    <label>Undecided</label>
+                </value>
+                <value>
+                    <fullName>Unsuitable structure/roof</fullName>
+                    <default>false</default>
+                    <label>Unsuitable structure/roof</label>
+                </value>
+                <value>
+                    <fullName>Waiting for Reroof</fullName>
+                    <default>false</default>
+                    <label>Waiting for Reroof</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>06 - Closed Won - Contract Signed/PO Placed</controllingFieldValue>
+                <controllingFieldValue>Contract Signed</controllingFieldValue>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <controllingFieldValue>100% - Delivered</controllingFieldValue>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>Installation Completed</controllingFieldValue>
+                <controllingFieldValue>100% - Won</controllingFieldValue>
+                <controllingFieldValue>08 - Closed Won - PV Delivered</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>06 – Closed Won</controllingFieldValue>
+                <valueName>Best Economics</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>06 - Closed Won - Contract Signed/PO Placed</controllingFieldValue>
+                <controllingFieldValue>Contract Signed</controllingFieldValue>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>Installation Completed</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>05 - Agreements Finalized/Imminent PO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>06 – Closed Won</controllingFieldValue>
+                <valueName>Best Price</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>06 - Closed Won - Contract Signed/PO Placed</controllingFieldValue>
+                <controllingFieldValue>Contract Signed</controllingFieldValue>
+                <controllingFieldValue>100% - Delivered</controllingFieldValue>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>Installation Completed</controllingFieldValue>
+                <controllingFieldValue>100% - Won</controllingFieldValue>
+                <controllingFieldValue>08 - Closed Won - PV Delivered</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>05 - Agreements Finalized/Imminent PO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>06 – Closed Won</controllingFieldValue>
+                <valueName>Best Product</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>06 - Closed Won - Contract Signed/PO Placed</controllingFieldValue>
+                <controllingFieldValue>Contract Signed</controllingFieldValue>
+                <controllingFieldValue>100% - Delivered</controllingFieldValue>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>Installation Completed</controllingFieldValue>
+                <controllingFieldValue>100% - Won</controllingFieldValue>
+                <controllingFieldValue>08 - Closed Won - PV Delivered</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>05 - Agreements Finalized/Imminent PO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>06 – Closed Won</controllingFieldValue>
+                <valueName>Best Services</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Contract Signed</controllingFieldValue>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>Installation Completed</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>05 - Agreements Finalized/Imminent PO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>06 – Closed Won</controllingFieldValue>
+                <valueName>Other</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>0% - Dead, Lost</controllingFieldValue>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>06 - Closed Won - Contract Signed/PO Placed</controllingFieldValue>
+                <controllingFieldValue>07 – Closed Lost</controllingFieldValue>
+                <valueName>Duplicate</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <controllingFieldValue>0% - Lost</controllingFieldValue>
+                <valueName>Insufficient budget</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <valueName>Interested, but not now</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <valueName>Invalid contact information</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>0% - Dead, Lost</controllingFieldValue>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>07 – Closed Lost</controllingFieldValue>
+                <valueName>Lead did not want to be contacted</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>0% - Dead, Lost</controllingFieldValue>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>07 – Closed Lost</controllingFieldValue>
+                <valueName>Lead not responsive</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <controllingFieldValue>0% - Lost</controllingFieldValue>
+                <valueName>Lost to competitor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <valueName>Lost to Dealer</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <valueName>Low electric bill</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <controllingFieldValue>0% - Dead, Lost</controllingFieldValue>
+                <valueName>Non-Competitive Financing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <valueName>Not candidate for solar - Credit</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <valueName>Not candidate for solar - Low electric bill</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <valueName>Not candidate for solar - Shading</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>0% - Dead, Lost</controllingFieldValue>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>07 – Closed Lost</controllingFieldValue>
+                <valueName>Not Price Competitive</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>07 – Closed Lost</controllingFieldValue>
+                <valueName>Not Strongest Relationship</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <controllingFieldValue>0% - Dead, Lost</controllingFieldValue>
+                <controllingFieldValue>0% - Lost</controllingFieldValue>
+                <valueName>Nurture - interested, but not now</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <valueName>Other (provide notes in field)</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <valueName>Outside of business scope</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <valueName>Outside of coverage area</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <valueName>Renter</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <valueName>Shading</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <valueName>Unsuitable structure/roof</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Opportunity Lost</controllingFieldValue>
+                <valueName>Waiting for Reroof</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Won</controllingFieldValue>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>06 – Closed Won</controllingFieldValue>
+                <valueName>Strongest Relationship</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>07 – Closed Lost</controllingFieldValue>
+                <valueName>Constrained Resources / Priorities Re-Adjusted</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>0% - Dead, Lost</controllingFieldValue>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>07 – Closed Lost</controllingFieldValue>
+                <valueName>Not Competitive on Non-Price Attributes</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>07 – Closed Lost</controllingFieldValue>
+                <valueName>Opportunity Acquired by Competitor</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed Lost</controllingFieldValue>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>07 – Closed Lost</controllingFieldValue>
+                <valueName>SunPower Abandon Project / Development</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>06 – Closed Won</controllingFieldValue>
+                <valueName>Competitive Financing</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>07 – Closed Lost</controllingFieldValue>
+                <valueName>Dormant</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>06 – Closed Won</controllingFieldValue>
+                <controllingFieldValue>06 - Closed Won - Contract Signed/PO Placed</controllingFieldValue>
+                <controllingFieldValue>07 – Closed Lost</controllingFieldValue>
+                <valueName>Economics</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>06 – Closed Won</controllingFieldValue>
+                <controllingFieldValue>06 - Closed Won - Contract Signed/PO Placed</controllingFieldValue>
+                <controllingFieldValue>07 – Closed Lost</controllingFieldValue>
+                <valueName>Non-economics</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>00 - Qualified Lead</controllingFieldValue>
+                <controllingFieldValue>02 - Indicative Proposal</controllingFieldValue>
+                <controllingFieldValue>01 - Discovery</controllingFieldValue>
+                <controllingFieldValue>01 - Build Single Sales Objective</controllingFieldValue>
+                <controllingFieldValue>02 - Finalize SSO</controllingFieldValue>
+                <controllingFieldValue>03 - Firm Offer</controllingFieldValue>
+                <controllingFieldValue>04 - Negotiate Binding Contract</controllingFieldValue>
+                <controllingFieldValue>05 – Agreements Finalized</controllingFieldValue>
+                <controllingFieldValue>06 – Closed Won</controllingFieldValue>
+                <controllingFieldValue>06 - Closed Won - Contract Signed/PO Placed</controllingFieldValue>
+                <controllingFieldValue>07 – Closed Lost</controllingFieldValue>
+                <valueName>Relationship</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>0% - Lost</controllingFieldValue>
+                <valueName>No Allocation</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>0% - Lost</controllingFieldValue>
+                <valueName>No response</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>0% - Lost</controllingFieldValue>
+                <valueName>Not Best Economics</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>0% - Lost</controllingFieldValue>
+                <valueName>Undecided</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+  <validationRules>
+        <fullName>Opportunity_Won</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+   $User.ByPassValidation__c == false,
+   ISPICKVAL( Reason_Won_Lost__c ,''),  
+   OR(
+     AND( 
+        CONTAINS(TEXT( StageName), 'Won'),
+        NOT( ISPICKVAL( StageName, '06 - Closed Won - Contract Signed/PO Placed' ))
+     ),
+     CONTAINS(TEXT( StageName), 'Delivered')
+   )
+)</errorConditionFormula>
+        <errorDisplayField>Reason_Won_Lost__c</errorDisplayField>
+        <errorMessage>Provide the Reason Won if the Opportunity is Won.</errorMessage>
+    </validationRules>
+  <webLinks>
+        <fullName>Generate_Project_Details_Page</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>page</linkType>
+        <masterLabel>Generate Project Details Page</masterLabel>
+        <openType>newWindow</openType>
+        <page>OpportunityViewDoc</page>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+        <fullName>ICD_URL__c</fullName>
+        <description>This will generate URL for ICD record link.</description>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(Left($Api.Enterprise_Server_URL_190,(find('/services',$Api.Enterprise_Server_URL_190)))+Id,  Name , "_black")</formula>
+        <label>ICD URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+  <fields>
+        <fullName>Residential_Project_Number__c</fullName>
+        <description>This will return Project number from relevant Residential Project.</description>
+        <externalId>false</externalId>
+        <formula>Residential_Project__r.Project_Number__c</formula>
+        <label>Residential Project Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

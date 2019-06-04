@@ -1,0 +1,5429 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+        <fullName>Rebate_Authority__c</fullName>
+        <externalId>false</externalId>
+        <label>Rebate Authority</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Alameda Municipal Power</fullName>
+                    <default>false</default>
+                    <label>Alameda Municipal Power</label>
+                </value>
+                <value>
+                    <fullName>Anaheim Public Utility</fullName>
+                    <default>false</default>
+                    <label>Anaheim Public Utility</label>
+                </value>
+                <value>
+                    <fullName>APS – Arizona</fullName>
+                    <default>false</default>
+                    <label>APS – Arizona</label>
+                </value>
+                <value>
+                    <fullName>Azusa Light &amp; Water</fullName>
+                    <default>false</default>
+                    <label>Azusa Light &amp; Water</label>
+                </value>
+                <value>
+                    <fullName>Bear Valley Utility</fullName>
+                    <default>false</default>
+                    <label>Bear Valley Utility</label>
+                </value>
+                <value>
+                    <fullName>Black Hills Energy</fullName>
+                    <default>false</default>
+                    <label>Black Hills Energy</label>
+                </value>
+                <value>
+                    <fullName>CEC – NSHP</fullName>
+                    <default>false</default>
+                    <label>CEC – NSHP</label>
+                </value>
+                <value>
+                    <fullName>City of Colton Electric Department</fullName>
+                    <default>false</default>
+                    <label>City of Colton Electric Department</label>
+                </value>
+                <value>
+                    <fullName>City of LODI</fullName>
+                    <default>false</default>
+                    <label>City of LODI</label>
+                </value>
+                <value>
+                    <fullName>Connecticut Green Bank</fullName>
+                    <default>false</default>
+                    <label>Connecticut Green Bank</label>
+                </value>
+                <value>
+                    <fullName>CPAU – Palo Alto</fullName>
+                    <default>false</default>
+                    <label>CPAU – Palo Alto</label>
+                </value>
+                <value>
+                    <fullName>Dealer Pays</fullName>
+                    <default>false</default>
+                    <label>Dealer Pays</label>
+                </value>
+                <value>
+                    <fullName>Glendale Water &amp; Power</fullName>
+                    <default>false</default>
+                    <label>Glendale Water &amp; Power</label>
+                </value>
+                <value>
+                    <fullName>HELPS - MA</fullName>
+                    <default>false</default>
+                    <label>HELPS - MA</label>
+                </value>
+                <value>
+                    <fullName>Hercules Municipal Utility</fullName>
+                    <default>false</default>
+                    <label>Hercules Municipal Utility</label>
+                </value>
+                <value>
+                    <fullName>IIP – Imperial Irrigation</fullName>
+                    <default>false</default>
+                    <label>IIP – Imperial Irrigation</label>
+                </value>
+                <value>
+                    <fullName>LADWP – Los Angeles</fullName>
+                    <default>false</default>
+                    <label>LADWP – Los Angeles</label>
+                </value>
+                <value>
+                    <fullName>LIPA</fullName>
+                    <default>false</default>
+                    <label>LIPA</label>
+                </value>
+                <value>
+                    <fullName>MA Clean Energy Center (MassCEC)</fullName>
+                    <default>false</default>
+                    <label>MA Clean Energy Center (MassCEC)</label>
+                </value>
+                <value>
+                    <fullName>MID – Modesto</fullName>
+                    <default>false</default>
+                    <label>MID – Modesto</label>
+                </value>
+                <value>
+                    <fullName>Mohave - AZ</fullName>
+                    <default>false</default>
+                    <label>Mohave - AZ</label>
+                </value>
+                <value>
+                    <fullName>Moreno Valley</fullName>
+                    <default>false</default>
+                    <label>Moreno Valley</label>
+                </value>
+                <value>
+                    <fullName>No Rebate</fullName>
+                    <default>false</default>
+                    <label>No Rebate</label>
+                </value>
+                <value>
+                    <fullName>NStar (MA)</fullName>
+                    <default>false</default>
+                    <label>NStar (MA)</label>
+                </value>
+                <value>
+                    <fullName>NV Energy</fullName>
+                    <default>false</default>
+                    <label>NV Energy</label>
+                </value>
+                <value>
+                    <fullName>NYSERDA- NY</fullName>
+                    <default>false</default>
+                    <label>NYSERDA- NY</label>
+                </value>
+                <value>
+                    <fullName>NY-Sun</fullName>
+                    <default>false</default>
+                    <label>NY-Sun</label>
+                </value>
+                <value>
+                    <fullName>Pacific Power CSI</fullName>
+                    <default>false</default>
+                    <label>Pacific Power CSI</label>
+                </value>
+                <value>
+                    <fullName>Pasadena Water &amp; Power</fullName>
+                    <default>false</default>
+                    <label>Pasadena Water &amp; Power</label>
+                </value>
+                <value>
+                    <fullName>PA Sunshine Program</fullName>
+                    <default>false</default>
+                    <label>PA Sunshine Program</label>
+                </value>
+                <value>
+                    <fullName>PG&amp;E – CSI</fullName>
+                    <default>false</default>
+                    <label>PG&amp;E – CSI</label>
+                </value>
+                <value>
+                    <fullName>PG&amp;E – NSHP</fullName>
+                    <default>false</default>
+                    <label>PG&amp;E – NSHP</label>
+                </value>
+                <value>
+                    <fullName>PWP – Pasadena</fullName>
+                    <default>false</default>
+                    <label>PWP – Pasadena</label>
+                </value>
+                <value>
+                    <fullName>RERC Vermont</fullName>
+                    <default>false</default>
+                    <label>RERC Vermont</label>
+                </value>
+                <value>
+                    <fullName>RE – Roseville</fullName>
+                    <default>false</default>
+                    <label>RE – Roseville</label>
+                </value>
+                <value>
+                    <fullName>Riverside Public Utility</fullName>
+                    <default>false</default>
+                    <label>Riverside Public Utility</label>
+                </value>
+                <value>
+                    <fullName>SCE – CSI</fullName>
+                    <default>false</default>
+                    <label>SCE – CSI</label>
+                </value>
+                <value>
+                    <fullName>SCE – NSHP</fullName>
+                    <default>false</default>
+                    <label>SCE – NSHP</label>
+                </value>
+                <value>
+                    <fullName>SDG&amp;E – CSI</fullName>
+                    <default>false</default>
+                    <label>SDG&amp;E – CSI</label>
+                </value>
+                <value>
+                    <fullName>SDG&amp;E – NSHP</fullName>
+                    <default>false</default>
+                    <label>SDG&amp;E – NSHP</label>
+                </value>
+                <value>
+                    <fullName>SMART – MA</fullName>
+                    <default>false</default>
+                    <label>SMART – MA</label>
+                </value>
+                <value>
+                    <fullName>SMUD – Sacramento</fullName>
+                    <default>false</default>
+                    <label>SMUD – Sacramento</label>
+                </value>
+                <value>
+                    <fullName>SRP – Arizona</fullName>
+                    <default>false</default>
+                    <label>SRP – Arizona</label>
+                </value>
+                <value>
+                    <fullName>SRP – New Jersey</fullName>
+                    <default>false</default>
+                    <label>SRP – New Jersey</label>
+                </value>
+                <value>
+                    <fullName>SSVEC</fullName>
+                    <default>false</default>
+                    <label>SSVEC</label>
+                </value>
+                <value>
+                    <fullName>SVP – Silicon Valley Power</fullName>
+                    <default>false</default>
+                    <label>SVP – Silicon Valley Power</label>
+                </value>
+                <value>
+                    <fullName>TEP – Arizona</fullName>
+                    <default>false</default>
+                    <label>TEP – Arizona</label>
+                </value>
+                <value>
+                    <fullName>TID – Turlock</fullName>
+                    <default>false</default>
+                    <label>TID – Turlock</label>
+                </value>
+                <value>
+                    <fullName>TREC-US</fullName>
+                    <default>false</default>
+                    <label>TREC-US</label>
+                </value>
+                <value>
+                    <fullName>Trico – Arizona</fullName>
+                    <default>false</default>
+                    <label>Trico – Arizona</label>
+                </value>
+                <value>
+                    <fullName>Unisource-AZ</fullName>
+                    <default>false</default>
+                    <label>Unisource-AZ</label>
+                </value>
+                <value>
+                    <fullName>Xcel Energy - Colorado</fullName>
+                    <default>false</default>
+                    <label>Xcel Energy - Colorado</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+  <recordTypes>
+        <fullName>Loan</fullName>
+        <active>true</active>
+        <description>Created for Loan Backend Project</description>
+        <label>Loan</label>
+        <picklistValues>
+            <picklist>Commissioning_Status__c</picklist>
+            <values>
+                <fullName>Commisioning Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Appointment Confirmed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Appointment Requested</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Conductor_Inspection_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Extra Working</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Required</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Conductor_Inspection__c</picklist>
+            <values>
+                <fullName>Not Defined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Required</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Consuel_Approved__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Consuel_certificate__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>D4D_Category__c</picklist>
+            <values>
+                <fullName>Install_Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Awaiting City Approval on Design Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Awaiting City%2Fmunicipality Inspection and Permitting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Awaiting HOA Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Awaiting Photos or SMS Checklist</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Contract Revision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Force Majeure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Homeowner%27s Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Pending Installation Schedule %C2%A0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Permit Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Site Remodeling%2FRenovation%2FRepair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_System Installation in Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Warranty Card Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Awaiting Final Job Card%2FFinal Permit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Awaiting PTO Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Awaiting REBATE PAPERWORK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Awaiting Utility Final Inspection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Contract Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Escalated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Homeowner%27s Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Inverter%2FPanel Replacement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_No Internet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Pending Commissioning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Service%2FMain Panel Upgrade</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Site remodeling%2Frenovation%2Frepair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Unpermitted Structure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Awaiting City Permit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Awaiting Design Review Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Contract Revision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_HO Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Pending Re-allocation materials</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Site Remodeling%2FRenovation%2FRepair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Others</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Declaration_Prealable_Status__c</picklist>
+            <values>
+                <fullName>Additional Info Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disapproved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>DevCo__c</picklist>
+            <values>
+                <fullName>SunStrong</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Disposal_Flag__c</picklist>
+            <values>
+                <fullName>ACTIVE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DISPOSED</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ERDF_Approved__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ERDF_Status__c</picklist>
+            <values>
+                <fullName>PTF Approved</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>PTF Not Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PTF Qualified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PTF Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PTF Requested</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Electricity_Distributor__c</picklist>
+            <values>
+                <fullName>CitiPower</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jemena</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Powercor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SP-Ausnet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>United Energy</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Energy_Solutions__c</picklist>
+            <values>
+                <fullName>SPEB CVPP Order</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FiT_Bonus_Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Filing_Status__c</picklist>
+            <values>
+                <fullName>Household Head</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Married - Jointly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Married - Separate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Funding_Tranche__c</picklist>
+            <values>
+                <fullName>Access 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CITI1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CITI2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash Loan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ConEdison Solutions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Corona Sands%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Helios II Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Helios Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ITC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infinite Sunshine 2015-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lux II Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lux Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mosaic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OBS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Photon Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR %E2%80%93 Non US Treasury</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR Cash</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR MS 2013-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR SG 2013-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR SR 2013-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR-ITC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Capital LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Residential I LL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunpower Resi II%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunrise 2 LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunrise 3 LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunrise 4 LLC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grid_Connection_Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lease_1_or_2__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lease_Change_Hold_Disposition__c</picklist>
+            <values>
+                <fullName>Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Lease Docs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Change</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lease_Change_Type__c</picklist>
+            <values>
+                <fullName>Lessee Information Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Production Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Revision</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lease_of_Intent_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Underwriting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Welcome call%2Femail</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Letter_of_Intent_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Underwritting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Welcome Call%2FMail</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Mosaic_Status__c</picklist>
+            <values>
+                <fullName>Submit for Final Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successfully Submitted for Final Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Oracle_Cancellation_Status__c</picklist>
+            <values>
+                <fullName>Can%27t Hold%2EShipped already</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PTO_prior_NTP__c</picklist>
+            <values>
+                <fullName>Dealer mistaken inspection waiver as NTP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer%E2%80%99s went ahead to process PTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utility  Issue</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_for_Cancellation__c</picklist>
+            <values>
+                <fullName>Cancelled within 7 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash Sale Conversion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change of Dealer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Changed Mind</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Death</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health %26 Personal Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Install - 6 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Permit issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rebate issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Service Issue</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rebate_Authority__c</picklist>
+            <values>
+                <fullName>APS %E2%80%93 Arizona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alameda Municipal Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anaheim Public Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Azusa Light %26 Water</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bear Valley Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Black Hills Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPAU %E2%80%93 Palo Alto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Colton Electric Department</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of LODI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Connecticut Green Bank</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Pays</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Glendale Water %26 Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HELPS - MA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hercules Municipal Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IIP %E2%80%93 Imperial Irrigation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LADWP %E2%80%93 Los Angeles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LIPA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MA Clean Energy Center %28MassCEC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MID %E2%80%93 Modesto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mohave - AZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Moreno Valley</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NStar %28MA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NY-Sun</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NYSERDA- NY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Rebate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PA Sunshine Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PG%26E %E2%80%93 CSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PG%26E %E2%80%93 NSHP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PWP %E2%80%93 Pasadena</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pacific Power CSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pasadena Water %26 Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RE %E2%80%93 Roseville</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RERC Vermont</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Riverside Public Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCE %E2%80%93 CSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCE %E2%80%93 NSHP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SDG%26E %E2%80%93 CSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SDG%26E %E2%80%93 NSHP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMART %E2%80%93 MA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMUD %E2%80%93 Sacramento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SRP %E2%80%93 Arizona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SRP %E2%80%93 New Jersey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SSVEC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVP %E2%80%93 Silicon Valley Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TEP %E2%80%93 Arizona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TID %E2%80%93 Turlock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TREC-US</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trico %E2%80%93 Arizona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unisource-AZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Xcel Energy - Colorado</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reporting_Financier__c</picklist>
+            <values>
+                <fullName>CONEDISON SOLUTIONS%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CORONA SANDS%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Catania LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HELIOS II RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HELIOS RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INFINITE SUNSHINE 2015-1%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LUX II RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LUX RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PERPETUAL SUNSHINE I%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PHOTON RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR EW 2013-1%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR Lease Co I  LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR MS 2013-1%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-1%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-2%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-3%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER CAPITAL%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER RESIDENTIAL I%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER RESIDENTIAL II%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER RESIDENTIAL III%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER SOLAR ACCESS I%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNRISE 2%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNRISE 3%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNRISE I%2C LLC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SPVT_Result__c</picklist>
+            <values>
+                <fullName>Fail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pass</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Stage__c</picklist>
+            <values>
+                <fullName>Awaiting Lessee Sign-off</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Shipped</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install Doc Set Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install Doc Set Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install Preparation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install Scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Intcnt Doc Set Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect Scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Docs Executed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lessee Signed%2FSP Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proposal Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Quote Lock%2FDoc Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SP Review Issues Sent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Buyout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancellation with RMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deceased HO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delayed Buyout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disposed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inventory Asset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Buyout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Disposal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Termination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Separation of Lesse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Terminated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transferred</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TPO_Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tranche_1_Response__c</picklist>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tranche_2_Response__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected%3A Already Placed in Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected%3A Deficient</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected%3A Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tranche_3_Response__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tranching_Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Presented</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested for Closing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested for Payment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>UnderWriting_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>UnderWriting_call__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attempted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Unable to Reach</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Underwriting_Email__c</picklist>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>X1603_Financier__c</picklist>
+            <values>
+                <fullName>CITI1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CITI2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>X1603_Status__c</picklist>
+            <values>
+                <fullName>Awarded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled Lease</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>For Filing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Eligible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial Filing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Refunded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reserve Taken</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Withdrawn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yet to be Placed in Service</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+  <recordTypes>
+        <fullName>NH_Lease_Payment</fullName>
+        <active>true</active>
+        <description>Record type for New Homes Leases</description>
+        <label>NH Lease Payment</label>
+        <picklistValues>
+            <picklist>Commissioning_Status__c</picklist>
+            <values>
+                <fullName>Commisioning Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Appointment Confirmed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Appointment Requested</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Conductor_Inspection_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Extra Working</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Required</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Conductor_Inspection__c</picklist>
+            <values>
+                <fullName>Not Defined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Required</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Consuel_Approved__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Consuel_certificate__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>D4D_Category__c</picklist>
+            <values>
+                <fullName>Install_Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Awaiting City Approval on Design Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Awaiting City%2Fmunicipality Inspection and Permitting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Awaiting HOA Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Awaiting Photos or SMS Checklist</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Contract Revision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Force Majeure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Homeowner%27s Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Pending Installation Schedule %C2%A0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Permit Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Site Remodeling%2FRenovation%2FRepair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_System Installation in Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Warranty Card Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Awaiting Final Job Card%2FFinal Permit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Awaiting PTO Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Awaiting REBATE PAPERWORK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Awaiting Utility Final Inspection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Contract Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Escalated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Homeowner%27s Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Inverter%2FPanel Replacement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_No Internet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Pending Commissioning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Service%2FMain Panel Upgrade</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Site remodeling%2Frenovation%2Frepair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Unpermitted Structure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Awaiting City Permit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Awaiting Design Review Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Contract Revision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_HO Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Pending Re-allocation materials</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Site Remodeling%2FRenovation%2FRepair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Others</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Declaration_Prealable_Status__c</picklist>
+            <values>
+                <fullName>Additional Info Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disapproved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>DevCo__c</picklist>
+            <values>
+                <fullName>SunStrong</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Disposal_Flag__c</picklist>
+            <values>
+                <fullName>ACTIVE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DISPOSED</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ERDF_Approved__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ERDF_Status__c</picklist>
+            <values>
+                <fullName>PTF Approved</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>PTF Not Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PTF Qualified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PTF Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PTF Requested</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Electricity_Distributor__c</picklist>
+            <values>
+                <fullName>CitiPower</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jemena</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Powercor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SP-Ausnet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>United Energy</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Energy_Solutions__c</picklist>
+            <values>
+                <fullName>SPEB CVPP Order</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FiT_Bonus_Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Filing_Status__c</picklist>
+            <values>
+                <fullName>Household Head</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Married - Jointly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Married - Separate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Funding_Tranche__c</picklist>
+            <values>
+                <fullName>Access 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CITI1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CITI2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ConEdison Solutions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Corona Sands%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Helios II Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Helios Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ITC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infinite Sunshine 2015-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lux II Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lux Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OBS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Perpetual Sunshine I</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Photon Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR %E2%80%93 Non US Treasury</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR MS 2013-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR SG 2013-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR SR 2013-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR-ITC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Capital LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Residential I LL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunpower Resi II%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunrise 2 LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunrise 3 LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunrise 4 LLC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grid_Connection_Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lease_1_or_2__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lease_Change_Hold_Disposition__c</picklist>
+            <values>
+                <fullName>Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Lease Docs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Change</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lease_Change_Type__c</picklist>
+            <values>
+                <fullName>Lessee Information Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Production Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Revision</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lease_of_Intent_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Underwriting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Welcome call%2Femail</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Letter_of_Intent_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Underwritting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Welcome Call%2FMail</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Mosaic_Status__c</picklist>
+            <values>
+                <fullName>Submit for Final Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successfully Submitted for Final Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Oracle_Cancellation_Status__c</picklist>
+            <values>
+                <fullName>Can%27t Hold%2EShipped already</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PTO_prior_NTP__c</picklist>
+            <values>
+                <fullName>Dealer mistaken inspection waiver as NTP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer%E2%80%99s went ahead to process PTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utility  Issue</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_for_Cancellation__c</picklist>
+            <values>
+                <fullName>Cancelled within 7 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash Sale Conversion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change of Dealer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Changed Mind</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Death</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health %26 Personal Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Install - 6 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Permit issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rebate issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Service Issue</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rebate_Authority__c</picklist>
+            <values>
+                <fullName>APS %E2%80%93 Arizona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alameda Municipal Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anaheim Public Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Azusa Light %26 Water</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bear Valley Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CEC %E2%80%93 NSHP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPAU %E2%80%93 Palo Alto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Colton Electric Department</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of LODI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Connecticut Green Bank</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Pays</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Glendale Water %26 Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HELPS - MA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hercules Municipal Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IIP %E2%80%93 Imperial Irrigation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LADWP %E2%80%93 Los Angeles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LIPA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MA Clean Energy Center %28MassCEC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MID %E2%80%93 Modesto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mohave - AZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Moreno Valley</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NStar %28MA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NY-Sun</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NYSERDA- NY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Rebate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PA Sunshine Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PG%26E %E2%80%93 CSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PG%26E %E2%80%93 NSHP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PWP %E2%80%93 Pasadena</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pacific Power CSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pasadena Water %26 Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RE %E2%80%93 Roseville</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RERC Vermont</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Riverside Public Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCE %E2%80%93 CSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCE %E2%80%93 NSHP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SDG%26E %E2%80%93 CSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SDG%26E %E2%80%93 NSHP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMART %E2%80%93 MA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMUD %E2%80%93 Sacramento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SRP %E2%80%93 Arizona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SRP %E2%80%93 New Jersey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SSVEC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVP %E2%80%93 Silicon Valley Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TEP %E2%80%93 Arizona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TID %E2%80%93 Turlock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TREC-US</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trico %E2%80%93 Arizona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unisource-AZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Xcel Energy - Colorado</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reporting_Financier__c</picklist>
+            <values>
+                <fullName>CONEDISON SOLUTIONS%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CORONA SANDS%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Catania LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HELIOS II RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HELIOS RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INFINITE SUNSHINE 2015-1%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LUX II RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LUX RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PERPETUAL SUNSHINE I%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PHOTON RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR EW 2013-1%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR Lease Co I  LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR MS 2013-1%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-1%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-2%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-3%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER CAPITAL%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER RESIDENTIAL I%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER RESIDENTIAL II%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER RESIDENTIAL III%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER SOLAR ACCESS I%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNRISE 2%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNRISE 3%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNRISE I%2C LLC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SPVT_Result__c</picklist>
+            <values>
+                <fullName>Fail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pass</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Stage__c</picklist>
+            <values>
+                <fullName>Awaiting Lessee Sign-off</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Shipped</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install Doc Set Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install Doc Set Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install Preparation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install Scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Intcnt Doc Set Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect Scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Docs Executed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lessee Signed%2FSP Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proposal Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Quote Lock%2FDoc Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SP Review Issues Sent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Buyout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancellation with RMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deceased HO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delayed Buyout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disposed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Early Buyout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inventory Asset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Buyout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Disposal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Termination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Separation of Lesse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Terminated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transferred</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TPO_Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tranche_1_Response__c</picklist>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tranche_2_Response__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected%3A Already Placed in Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected%3A Deficient</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected%3A Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tranche_3_Response__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tranching_Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Presented</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested for Closing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested for Payment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>UnderWriting_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>UnderWriting_call__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attempted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Unable to Reach</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Underwriting_Email__c</picklist>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>X1603_Financier__c</picklist>
+            <values>
+                <fullName>CITI1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CITI2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>X1603_Status__c</picklist>
+            <values>
+                <fullName>Awarded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled Lease</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>For Filing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Eligible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial Filing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Refunded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reserve Taken</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Withdrawn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yet to be Placed in Service</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+  <recordTypes>
+        <fullName>New_RecordType</fullName>
+        <active>true</active>
+        <description>Page Layout associated to this contains all the Actual fields and the New Formula fields created.</description>
+        <label>New-RecordType</label>
+        <picklistValues>
+            <picklist>D4D_Category__c</picklist>
+            <values>
+                <fullName>Install_Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Awaiting City Approval on Design Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Awaiting City%2Fmunicipality Inspection and Permitting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Awaiting HOA Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Awaiting Photos or SMS Checklist</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Contract Revision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Force Majeure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Homeowner%27s Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Pending Installation Schedule %C2%A0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Permit Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Site Remodeling%2FRenovation%2FRepair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_System Installation in Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Warranty Card Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Awaiting Final Job Card%2FFinal Permit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Awaiting PTO Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Awaiting REBATE PAPERWORK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Awaiting Utility Final Inspection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Contract Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Escalated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Homeowner%27s Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Inverter%2FPanel Replacement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_No Internet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Pending Commissioning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Service%2FMain Panel Upgrade</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Site remodeling%2Frenovation%2Frepair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Unpermitted Structure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Awaiting City Permit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Awaiting Design Review Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Contract Revision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_HO Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Pending Re-allocation materials</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Site Remodeling%2FRenovation%2FRepair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Others</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>DevCo__c</picklist>
+            <values>
+                <fullName>SunStrong</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Disposal_Flag__c</picklist>
+            <values>
+                <fullName>ACTIVE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DISPOSED</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Electricity_Distributor__c</picklist>
+            <values>
+                <fullName>CitiPower</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jemena</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Powercor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SP-Ausnet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>United Energy</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Energy_Solutions__c</picklist>
+            <values>
+                <fullName>SPEB CVPP Order</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Filing_Status__c</picklist>
+            <values>
+                <fullName>Household Head</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Married - Jointly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Married - Separate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Funding_Tranche__c</picklist>
+            <values>
+                <fullName>Access 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CITI1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CITI2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ConEdison Solutions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Corona Sands%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Helios II Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Helios Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infinite Sunshine 2015-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lux II Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lux Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Perpetual Sunshine I</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Photon Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR %E2%80%93 Non US Treasury</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR MS 2013-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR SG 2013-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR SR 2013-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR-ITC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Capital LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Residential I LL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunpower Resi II%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunrise 2 LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunrise 3 LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunrise 4 LLC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lease_1_or_2__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lease_Change_Hold_Disposition__c</picklist>
+            <values>
+                <fullName>Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Lease Docs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Change</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Mosaic_Status__c</picklist>
+            <values>
+                <fullName>Submit for Final Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successfully Submitted for Final Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Oracle_Cancellation_Status__c</picklist>
+            <values>
+                <fullName>Can%27t Hold%2EShipped already</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PTO_prior_NTP__c</picklist>
+            <values>
+                <fullName>Dealer mistaken inspection waiver as NTP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer%E2%80%99s went ahead to process PTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utility  Issue</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_for_Cancellation__c</picklist>
+            <values>
+                <fullName>Cancelled within 7 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash Sale Conversion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Changed Mind</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Death</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Install - 6 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Permit issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rebate issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Service Issue</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rebate_Authority__c</picklist>
+            <values>
+                <fullName>APS %E2%80%93 Arizona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alameda Municipal Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anaheim Public Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Azusa Light %26 Water</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bear Valley Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Black Hills Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPAU %E2%80%93 Palo Alto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Colton Electric Department</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of LODI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Connecticut Green Bank</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Pays</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Glendale Water %26 Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HELPS - MA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hercules Municipal Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IIP %E2%80%93 Imperial Irrigation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LADWP %E2%80%93 Los Angeles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LIPA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MA Clean Energy Center %28MassCEC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MID %E2%80%93 Modesto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mohave - AZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Moreno Valley</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NStar %28MA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NY-Sun</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NYSERDA- NY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Rebate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PA Sunshine Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PG%26E %E2%80%93 CSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PG%26E %E2%80%93 NSHP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PWP %E2%80%93 Pasadena</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pacific Power CSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pasadena Water %26 Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RE %E2%80%93 Roseville</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RERC Vermont</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Riverside Public Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCE %E2%80%93 CSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCE %E2%80%93 NSHP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SDG%26E %E2%80%93 CSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SDG%26E %E2%80%93 NSHP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMART %E2%80%93 MA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMUD %E2%80%93 Sacramento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SRP %E2%80%93 Arizona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SRP %E2%80%93 New Jersey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SSVEC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVP %E2%80%93 Silicon Valley Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TEP %E2%80%93 Arizona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TID %E2%80%93 Turlock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TREC-US</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trico %E2%80%93 Arizona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unisource-AZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Xcel Energy - Colorado</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reporting_Financier__c</picklist>
+            <values>
+                <fullName>CONEDISON SOLUTIONS%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CORONA SANDS%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Catania LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HELIOS II RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HELIOS RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INFINITE SUNSHINE 2015-1%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LUX II RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LUX RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PERPETUAL SUNSHINE I%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PHOTON RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR EW 2013-1%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR Lease Co I  LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR MS 2013-1%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-1%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-2%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-3%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER CAPITAL%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER RESIDENTIAL I%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER RESIDENTIAL II%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER RESIDENTIAL III%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER SOLAR ACCESS I%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNRISE 2%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNRISE 3%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNRISE I%2C LLC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SPVT_Result__c</picklist>
+            <values>
+                <fullName>Fail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pass</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Stage__c</picklist>
+            <values>
+                <fullName>Awaiting Lessee Sign-off</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Shipped</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install Doc Set Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install Doc Set Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install Preparation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install Scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Intcnt Doc Set Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect Scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Docs Executed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lessee Signed%2FSP Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proposal Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Quote Lock%2FDoc Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SP Review Issues Sent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Buyout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancellation with RMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deceased HO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delayed Buyout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disposed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Early Buyout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inventory Asset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Buyout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Disposal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Termination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Separation of Lesse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Terminated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transferred</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tranche_1_Response__c</picklist>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tranche_2_Response__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected%3A Already Placed in Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected%3A Deficient</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected%3A Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tranche_3_Response__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tranching_Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Presented</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested for Closing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested for Payment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>X1603_Financier__c</picklist>
+            <values>
+                <fullName>CITI1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CITI2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>X1603_Status__c</picklist>
+            <values>
+                <fullName>Awarded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled Lease</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>For Filing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Eligible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial Filing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Refunded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reserve Taken</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Withdrawn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yet to be Placed in Service</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+  <recordTypes>
+        <fullName>TPS</fullName>
+        <active>true</active>
+        <description>Recordtype to support New layout for TPS Leases</description>
+        <label>TPS</label>
+        <picklistValues>
+            <picklist>Commissioning_Status__c</picklist>
+            <values>
+                <fullName>Commisioning Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Appointment Confirmed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commissioning Appointment Requested</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Conductor_Inspection_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Extra Working</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Required</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Conductor_Inspection__c</picklist>
+            <values>
+                <fullName>Not Defined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Required</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Consuel_Approved__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Consuel_certificate__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>D4D_Category__c</picklist>
+            <values>
+                <fullName>Install_Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Awaiting City Approval on Design Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Awaiting City%2Fmunicipality Inspection and Permitting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Awaiting HOA Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Awaiting Photos or SMS Checklist</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Contract Revision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Force Majeure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Homeowner%27s Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Pending Installation Schedule %C2%A0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Permit Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Site Remodeling%2FRenovation%2FRepair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_System Installation in Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install_Warranty Card Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Awaiting Final Job Card%2FFinal Permit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Awaiting PTO Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Awaiting REBATE PAPERWORK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Awaiting Utility Final Inspection</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Contract Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Escalated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Homeowner%27s Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Inverter%2FPanel Replacement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_No Internet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Pending Commissioning</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Service%2FMain Panel Upgrade</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Site remodeling%2Frenovation%2Frepair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect_Unpermitted Structure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Awaiting City Permit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Awaiting Design Review Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Contract Revision</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_HO Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Pending Re-allocation materials</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Shipped_Site Remodeling%2FRenovation%2FRepair</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Others</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Declaration_Prealable_Status__c</picklist>
+            <values>
+                <fullName>Additional Info Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disapproved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Submitted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>DevCo__c</picklist>
+            <values>
+                <fullName>SunStrong</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Disposal_Flag__c</picklist>
+            <values>
+                <fullName>ACTIVE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DISPOSED</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ERDF_Approved__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ERDF_Status__c</picklist>
+            <values>
+                <fullName>PTF Approved</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>PTF Not Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PTF Qualified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PTF Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PTF Requested</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Electricity_Distributor__c</picklist>
+            <values>
+                <fullName>CitiPower</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jemena</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Powercor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SP-Ausnet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>United Energy</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Energy_Solutions__c</picklist>
+            <values>
+                <fullName>SPEB CVPP Order</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>FiT_Bonus_Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Filing_Status__c</picklist>
+            <values>
+                <fullName>Household Head</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Married - Jointly</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Married - Separate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Funding_Tranche__c</picklist>
+            <values>
+                <fullName>Access 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CITI1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CITI2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ConEdison Solutions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Corona Sands%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Helios II Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Helios Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ITC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Infinite Sunshine 2015-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lux II Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lux Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OBS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Perpetual Sunshine I</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Photon Resi Solar</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR %E2%80%93 Non US Treasury</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR MS 2013-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR SG 2013-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR SR 2013-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR-ITC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Capital LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Residential I LL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunpower Resi II%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunrise 2 LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunrise 3 LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunrise 4 LLC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grid_Connection_Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lease_1_or_2__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lease_Change_Hold_Disposition__c</picklist>
+            <values>
+                <fullName>Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Lease Docs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Change</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lease_Change_Type__c</picklist>
+            <values>
+                <fullName>Lessee Information Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Product Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Production Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Revision</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Lease_of_Intent_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Underwriting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Welcome call%2Femail</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Letter_of_Intent_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Underwritting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Welcome Call%2FMail</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Mosaic_Status__c</picklist>
+            <values>
+                <fullName>Submit for Final Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Successfully Submitted for Final Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Oracle_Cancellation_Status__c</picklist>
+            <values>
+                <fullName>Can%27t Hold%2EShipped already</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PTO_prior_NTP__c</picklist>
+            <values>
+                <fullName>Dealer mistaken inspection waiver as NTP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer%E2%80%99s went ahead to process PTO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utility  Issue</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason_for_Cancellation__c</picklist>
+            <values>
+                <fullName>Cancelled within 7 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash Sale Conversion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change of Dealer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Changed Mind</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Death</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health %26 Personal Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Install - 6 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Permit issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rebate issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Service Issue</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rebate_Authority__c</picklist>
+            <values>
+                <fullName>APS %E2%80%93 Arizona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alameda Municipal Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anaheim Public Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Azusa Light %26 Water</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bear Valley Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPAU %E2%80%93 Palo Alto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Colton Electric Department</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of LODI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Connecticut Green Bank</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Pays</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Glendale Water %26 Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HELPS - MA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hercules Municipal Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IIP %E2%80%93 Imperial Irrigation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LADWP %E2%80%93 Los Angeles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LIPA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MA Clean Energy Center %28MassCEC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MID %E2%80%93 Modesto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mohave - AZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Moreno Valley</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NStar %28MA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NY-Sun</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NYSERDA- NY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Rebate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PA Sunshine Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PG%26E %E2%80%93 CSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PG%26E %E2%80%93 NSHP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PWP %E2%80%93 Pasadena</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pacific Power CSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pasadena Water %26 Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RE %E2%80%93 Roseville</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RERC Vermont</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Riverside Public Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCE %E2%80%93 CSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCE %E2%80%93 NSHP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SDG%26E %E2%80%93 CSI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SDG%26E %E2%80%93 NSHP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMART %E2%80%93 MA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMUD %E2%80%93 Sacramento</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SRP %E2%80%93 Arizona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SRP %E2%80%93 New Jersey</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SSVEC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SVP %E2%80%93 Silicon Valley Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TEP %E2%80%93 Arizona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TID %E2%80%93 Turlock</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TREC-US</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trico %E2%80%93 Arizona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unisource-AZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Xcel Energy - Colorado</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reporting_Financier__c</picklist>
+            <values>
+                <fullName>CONEDISON SOLUTIONS%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CORONA SANDS%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Catania LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HELIOS II RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HELIOS RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>INFINITE SUNSHINE 2015-1%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LUX II RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LUX RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PERPETUAL SUNSHINE I%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PHOTON RESIDENTIAL SOLAR FUND%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR EW 2013-1%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR Lease Co I  LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR MS 2013-1%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-1%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-2%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR USB 2013-3%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER CAPITAL%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER RESIDENTIAL I%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER RESIDENTIAL II%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER RESIDENTIAL III%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNPOWER SOLAR ACCESS I%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNRISE 2%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNRISE 3%2C LLC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SUNRISE I%2C LLC</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SPVT_Result__c</picklist>
+            <values>
+                <fullName>Fail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pass</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Stage__c</picklist>
+            <values>
+                <fullName>Awaiting Lessee Sign-off</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Equipment Shipped</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install Doc Set Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install Doc Set Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install Preparation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Install Scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Intcnt Doc Set Received</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interconnect Scheduled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Active</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease Docs Executed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lessee Signed%2FSP Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proposal Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Quote Lock%2FDoc Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SP Review Issues Sent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Buyout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancellation with RMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deceased HO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delayed Buyout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Disposed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Early Buyout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Expired</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inventory Asset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Buyout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Disposal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Termination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Transfer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Separation of Lesse</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Terminated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transferred</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>TPO_Approval_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Requested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tranche_1_Response__c</picklist>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tranche_2_Response__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected%3A Already Placed in Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected%3A Deficient</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected%3A Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tranche_3_Response__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Tranching_Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Presented</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Received Payment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested for Closing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Requested for Payment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>UnderWriting_Status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>UnderWriting_call__c</picklist>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Attempted</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Unable to Reach</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Underwriting_Email__c</picklist>
+            <values>
+                <fullName>None</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>X1603_Financier__c</picklist>
+            <values>
+                <fullName>CITI1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CITI2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPWR</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>X1603_Status__c</picklist>
+            <values>
+                <fullName>Awarded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled Lease</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>For Filing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Eligible</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Partial Filing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Refunded</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reserve Taken</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Withdrawn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yet to be Placed in Service</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+        <fullName>CRSM__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>RSM related to Credit Application</description>
+        <externalId>false</externalId>
+        <label>CRSM</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Milestones</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+</CustomObject>

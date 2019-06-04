@@ -1,0 +1,5542 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+        <fullName>Pre_COE_Comm_Failure_Reason__c</fullName>
+        <description>reason for Pre-COE commissioning failure</description>
+        <externalId>false</externalId>
+        <inlineHelpText>reason for Pre-COE commissioning failure</inlineHelpText>
+        <label>Pre-COE Comm. Failure Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Poor cell reception</fullName>
+                    <default>false</default>
+                    <label>Poor cell reception</label>
+                </value>
+                <value>
+                    <fullName>Server latency</fullName>
+                    <default>false</default>
+                    <label>Server latency</label>
+                </value>
+                <value>
+                    <fullName>Address availability</fullName>
+                    <default>false</default>
+                    <label>Address availability</label>
+                </value>
+                <value>
+                    <fullName>Installation failure</fullName>
+                    <default>false</default>
+                    <label>Installation failure</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+  <recordTypes>
+        <fullName>Indirect</fullName>
+        <active>true</active>
+        <description>Residential Project record for the Indirect Channel</description>
+        <label>Indirect</label>
+        <picklistValues>
+            <picklist>Battery_Storage__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Can_solar_breaker_be_installed_in_MSP__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Cancellation_Justification__c</picklist>
+            <values>
+                <fullName>Cancelled within 7 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash Sale Conversion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change of Dealer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Changed Mind</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Death</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health %26 Personal Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Install - 6 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Internet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Permit issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rebate issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transferred to External IP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Consumption_Monitoring_Compatible__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>EV_Charger_Available__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Flat_Roof__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Further_discount_status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HERS__c</picklist>
+            <values>
+                <fullName>CalCERTs</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HOA__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hold_Justification__c</picklist>
+            <values>
+                <fullName>Customer Executed Upgrades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homeowner Financing %2F Contract Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homeowner Unresponsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Missing Documents</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Construction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Counter-Signed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Home_Survey__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Installation_Type__c</picklist>
+            <values>
+                <fullName>Clay Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Comp Shingle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat - Foam</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat - Rolled Comp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ground Mount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Inverter_Model__c</picklist>
+            <values>
+                <fullName>SPR-3000M</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Inverter_Status__c</picklist>
+            <values>
+                <fullName>Disabled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enabled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Breaker_Location__c</picklist>
+            <values>
+                <fullName>Bottom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Main Breaker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Top</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Breaker_Rating_Amps__c</picklist>
+            <values>
+                <fullName>100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>125</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>150</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>225</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>400</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Service_Panel_Location__c</picklist>
+            <values>
+                <fullName>Equipment Room</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exterior Wall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inside Garage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Service_Panel_Manufacturer__c</picklist>
+            <values>
+                <fullName>Bryant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ - Federal Pacific Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ - Pushmatic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ - Zinsco%2FSylvania</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eaton%2FCutler Hammer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Murray</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Square D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Westinghouse</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Materials_Ship_to_Location__c</picklist>
+            <values>
+                <fullName>Job Site</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Meter_Combiners__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Microinverter_Status__c</picklist>
+            <values>
+                <fullName>Not Synced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Synced</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MonitoringIncluded__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Monitoring__c</picklist>
+            <values>
+                <fullName>Production Only</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Mounting_Type__c</picklist>
+            <values>
+                <fullName>Invisimount - Flat Roof - Stanchion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Inset - SunModo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Inset - SunModo - Deck</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Metal Roof - S5 Mini</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Over Tile - QuickHook %28Low Height%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Over Tile - QuickHook %28Standard Height%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Over Tile - Stanchion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - SunModo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - SunModo - Deck</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Smart Mount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UniRac Solar Mount</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Multi_Level_Home__c</picklist>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Three Story</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two Story</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PDF_Copy_Only__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PV_Module_Model__c</picklist>
+            <values>
+                <fullName>230W %28Model SPR-230NE-BLK-D%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>250W %28Model SPR-X20-250-BLK%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>250W %28Model SPR-X20-250-BLK-B-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>327W %28Model SPR-327NE-WHT-D%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>327W %28Model SPR-E20-327-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>335W %28Model SPR-X21-335-BLK%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>335W %28Model SPR-X21-335-BLK-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>335W %28Model SPR-X21-335-WHT-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>345W %28Model SPR-X21-345%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>345W %28Model SPR-X21-345-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>360 WHT %28Model SPR-X22-360-WHT-D%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>360W %28Model SPR-X22-360-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pre_COE_Comm_Failure_Reason__c</picklist>
+            <values>
+                <fullName>Address availability</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation failure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Poor cell reception</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Server latency</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority__c</picklist>
+            <values>
+                <fullName>Fast-tracked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposed_Solar_Breaker_Installed_in_MSP__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_1_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_2_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_3_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_4_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_Age__c</picklist>
+            <values>
+                <fullName>0-5 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10-15 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15-20 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20%2B Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5-10 Years</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_Attachment__c</picklist>
+            <values>
+                <fullName>L-Foot Kit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_Type__c</picklist>
+            <values>
+                <fullName>Composite Shingle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metal Roof</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S-Tile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Smart_Thermostat__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SunPower_Deal_Type__c</picklist>
+            <values>
+                <fullName>Cash</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>System_Adders__c</picklist>
+            <values>
+                <fullName>IP-Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Critter Guard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Flat Roof</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Interconnection Application Fee%2E Projects %3E10Kw</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Interconnection Application Fee%2E Projects %3E15Kw</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Line Side Tap%2FDownsize Main Breaker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Locus Meter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Main Service Panel Upgrade</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Meter Combination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Plot Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Revenue Grade Meter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Roof Pitch %3E 36 Degree %289%3A12 Pitch%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not applicable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Flat Roof</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Ground Mount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Home Survey %28Plot Plan%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Landscape Modules</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Meter Combines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Meter Combines with more than 2 Meters</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Tile Roof Inset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Trenching</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Thermostat_Manufacturer__c</picklist>
+            <values>
+                <fullName>ecobee</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Thermostat_Model__c</picklist>
+            <values>
+                <fullName>Eco Bee3%2C HomeKit - Enabled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Design__c</picklist>
+            <values>
+                <fullName>Individual Permit Package</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual Plot %26 Permit Package</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual Plot Plan</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Was_house_built_before_1985__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Was_house_built_before_1987__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+  <recordTypes>
+        <fullName>New_Home</fullName>
+        <active>true</active>
+        <description>New Home Residential Projects</description>
+        <label>New Home</label>
+        <picklistValues>
+            <picklist>Battery_Storage__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Can_solar_breaker_be_installed_in_MSP__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Cancellation_Justification__c</picklist>
+            <values>
+                <fullName>Cancelled within 7 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash Sale Conversion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change of Dealer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Changed Mind</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Death</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health %26 Personal Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Install - 6 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Permit issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rebate issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transferred to External IP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Consumption_Monitoring_Compatible__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>EV_Charger_Available__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Flat_Roof__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Further_discount_status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HERS__c</picklist>
+            <values>
+                <fullName>CHEERS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CalCERTs</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HOA__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hold_Justification__c</picklist>
+            <values>
+                <fullName>Customer Executed Upgrades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homeowner Financing %2F Contract Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homeowner Unresponsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Missing Documents</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Construction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Counter-Signed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Home_Survey__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Installation_Type__c</picklist>
+            <values>
+                <fullName>Clay Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Comp Inset on Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Comp Shingle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat - Foam</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat - Rolled Comp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ground Mount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Over Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Inverter_Model__c</picklist>
+            <values>
+                <fullName>GT2%2E5-NA-DS-240-P</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GT3%2E3-NA-DS-240-POS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GT5%2E0-NA-DS-240%2F208 %28240V%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PVI-3%2E0-OUTD-S-US %28240 V%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PVI-3%2E0-OUTD-S-US-A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PVI-3%2E6-OUTD-S-US %28240 V%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PVI-3%2E8-OUTD-S-US-A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PVI-4%2E2-OUTD-S-US %28240 V%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PVI-4%2E2-OUTD-S-US-A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PVI-5000-OUTD-US %28240 V%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PVI-5000-OUTD-US-A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PVI-6000-OUTD-US %28240 V%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PVI-6000-OUTD-US-A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SB3000TL-US-22 %28208V%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SB3000TL-US-22 %28240%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SB3000US-12 %28240V%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SB3800TL-US-22 %28208V%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SB3800TL-US-22 %28240%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SB4000US-12 %28240V%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SB5000TL-US-22 %28208V%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SB5000TL-US-22 %28240%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SB5000US-12 %28240%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SB6000TL-US-22 %28240%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SB6000US-12 %28240%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SB7000TL-US-22 %28240%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SB7000TL-US-22-208V</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SB7000TL-US-22-240V</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SB7700TL-US-22 %28240%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-12000f-208</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-12000f-240</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-2800x %28240V%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-3000M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-3000p-TL-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-3300X %28240V%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-3300f-240</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-3300f-277</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-3600p-TL-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-4000M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-4000X %28240V%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-4000f-240</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-4000f-277</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-4200p-TL-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-5000M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-5000X %28208V%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-5000X %28240V%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-5000p-TL-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-6000M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-6000p-TL-1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-6500f-208</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-6500f-240</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-6500f-277</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-6501f-1-UNI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-7000M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-8000M</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-8000f-208</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-8000f-277</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-E20-327-C-AC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-X20-250-BLK-B-AC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-X21-335-BLK-C-AC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPR-X21-345-C-AC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Satcon PVS-100-280</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Satcon PVS-75-280</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>XW4548-120%2F240-60</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>XW6048-120%2F240-60</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Inverter_Status__c</picklist>
+            <values>
+                <fullName>Disabled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enabled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Breaker_Location__c</picklist>
+            <values>
+                <fullName>Bottom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Main Breaker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Top</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Breaker_Rating_Amps__c</picklist>
+            <values>
+                <fullName>100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>125</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>150</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>225</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>400</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Service_Panel_Location__c</picklist>
+            <values>
+                <fullName>Equipment Room</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exterior Wall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inside Garage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Service_Panel_Manufacturer__c</picklist>
+            <values>
+                <fullName>Bryant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ - Federal Pacific Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ - Pushmatic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ - Zinsco%2FSylvania</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eaton%2FCutler Hammer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Murray</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Square D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Westinghouse</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Materials_Ship_to_Location__c</picklist>
+            <values>
+                <fullName>Job Site</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Meter_Combiners__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Microinverter_Status__c</picklist>
+            <values>
+                <fullName>Not Synced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Synced</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MonitoringIncluded__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Monitoring__c</picklist>
+            <values>
+                <fullName>Production %26 Consumption</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Production %26 Consumption %28Multi CT%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Production Only</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Mounting_Type__c</picklist>
+            <values>
+                <fullName>InvisiMount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SolarMount</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Multi_Level_Home__c</picklist>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Three Story</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two Story</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PDF_Copy_Only__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PV_HERS_Certification_Type__c</picklist>
+            <values>
+                <fullName>Sampled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tested</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PV_Module_Model__c</picklist>
+            <values>
+                <fullName>230W %28Model SPR-230NE-BLK-D%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>250W %28Model SPR-X20-250-BLK%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>250W %28Model SPR-X20-250-BLK-B-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>327W %28Model SPR-327NE-WHT-D%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>327W %28Model SPR-E20-327-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>335W %28Model SPR-X21-335-BLK%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>335W %28Model SPR-X21-335-BLK-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>335W %28Model SPR-X21-335-WHT-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>345W %28Model SPR-X21-345%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>345W %28Model SPR-X21-345-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>360 WHT %28Model SPR-X22-360-WHT-D%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>360W %28Model SPR-X22-360-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pre_COE_Comm_Failure_Reason__c</picklist>
+            <values>
+                <fullName>Address availability</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation failure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Poor cell reception</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Server latency</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority__c</picklist>
+            <values>
+                <fullName>Fast-tracked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposed_Solar_Breaker_Installed_in_MSP__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_1_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_2_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_3_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_4_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_Age__c</picklist>
+            <values>
+                <fullName>0-5 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10-15 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15-20 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20%2B Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5-10 Years</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_Attachment__c</picklist>
+            <values>
+                <fullName>L-Foot Kit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>QuickHook %28Low Height%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S5 Mini</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stanchion - 4%2E5 inch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stanchion - 7 Inch</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stanchion - Other Heights</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunModo - Deck</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunModo - Rafter</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_Type__c</picklist>
+            <values>
+                <fullName>Composite Shingle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metal Roof</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S-Tile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Smart_Thermostat__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SunPower_Deal_Type__c</picklist>
+            <values>
+                <fullName>Cash</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>System_Adders__c</picklist>
+            <values>
+                <fullName>3%2B Story Roof</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AC Sub Panel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Custom Home Adder %E2%80%93 Steep Roof</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DC Contactor %281 up to 2 strings%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DC Contactor %282 up to 4 strings%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DC Disconnect at Roof%28up to 3 strings%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DC Disconnect at grade level</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DC System</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP Commission at Install</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Over Tile Install</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Permit Fees</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sandoff%2FRacking Installation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Split array</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Thermostat_Manufacturer__c</picklist>
+            <values>
+                <fullName>ecobee</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Thermostat_Model__c</picklist>
+            <values>
+                <fullName>Eco Bee3%2C HomeKit - Enabled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Design__c</picklist>
+            <values>
+                <fullName>Individual Permit Package</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual Plot %26 Permit Package</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual Plot Plan</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Was_house_built_before_1985__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Was_house_built_before_1987__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+  <recordTypes>
+        <fullName>Project_Template</fullName>
+        <active>true</active>
+        <label>Project Template</label>
+        <picklistValues>
+            <picklist>Battery_Storage__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Can_solar_breaker_be_installed_in_MSP__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Cancellation_Justification__c</picklist>
+            <values>
+                <fullName>Financial Situation Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homeowner Death</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Unpermitted Structure</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Consumption_Monitoring_Compatible__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>EV_Charger_Available__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Flat_Roof__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Further_discount_status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HERS__c</picklist>
+            <values>
+                <fullName>CalCERTs</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HOA__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hold_Justification__c</picklist>
+            <values>
+                <fullName>Homeowner Unresponsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Construction</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Home_Survey__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Installation_Type__c</picklist>
+            <values>
+                <fullName>Clay Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Comp Shingle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat - Foam</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat - Rolled Comp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ground Mount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Inverter_Model__c</picklist>
+            <values>
+                <fullName>SPR-3000M</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Inverter_Status__c</picklist>
+            <values>
+                <fullName>Disabled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enabled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Breaker_Location__c</picklist>
+            <values>
+                <fullName>Bottom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Main Breaker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Top</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Breaker_Rating_Amps__c</picklist>
+            <values>
+                <fullName>100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>125</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>150</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>225</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>400</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Service_Panel_Location__c</picklist>
+            <values>
+                <fullName>Equipment Room</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exterior Wall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inside Garage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Service_Panel_Manufacturer__c</picklist>
+            <values>
+                <fullName>Bryant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ - Federal Pacific Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ - Pushmatic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ - Zinsco%2FSylvania</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eaton%2FCutler Hammer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Square D</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Materials_Ship_to_Location__c</picklist>
+            <values>
+                <fullName>Job Site</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Meter_Combiners__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Microinverter_Status__c</picklist>
+            <values>
+                <fullName>Not Synced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Synced</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MonitoringIncluded__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Monitoring__c</picklist>
+            <values>
+                <fullName>Production Only</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Mounting_Type__c</picklist>
+            <values>
+                <fullName>Invisimount - Flat Roof - Stanchion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Inset - SunModo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Inset - SunModo - Deck</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Metal Roof - S5 Mini</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Over Tile - QuickHook %28Low Height%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Over Tile - QuickHook %28Standard Height%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Over Tile - Stanchion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - SunModo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - SunModo - Deck</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Smart Mount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UniRac Solar Mount</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Multi_Level_Home__c</picklist>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Three Story</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two Story</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PDF_Copy_Only__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PV_Module_Model__c</picklist>
+            <values>
+                <fullName>230W %28Model SPR-23ONE-BLK-D%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pre_COE_Comm_Failure_Reason__c</picklist>
+            <values>
+                <fullName>Address availability</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation failure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Poor cell reception</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Server latency</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority__c</picklist>
+            <values>
+                <fullName>Fast-tracked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposed_Solar_Breaker_Installed_in_MSP__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_1_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_2_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_3_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_4_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_Age__c</picklist>
+            <values>
+                <fullName>0-5 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10-15 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15-20 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20%2B Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5-10 Years</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_Attachment__c</picklist>
+            <values>
+                <fullName>L-Foot Kit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_Type__c</picklist>
+            <values>
+                <fullName>Composite Shingle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metal Roof</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S-Tile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Smart_Thermostat__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SunPower_Deal_Type__c</picklist>
+            <values>
+                <fullName>Cash</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>System_Adders__c</picklist>
+            <values>
+                <fullName>IP-Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Critter Guard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Flat Roof</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Interconnection Application Fee%2E Projects %3E10Kw</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Interconnection Application Fee%2E Projects %3E15Kw</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Line Side Tap%2FDownsize Main Breaker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Locus Meter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Main Service Panel Upgrade</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Meter Combination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Plot Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Revenue Grade Meter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Roof Pitch %3E 36 Degree %289%3A12 Pitch%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not applicable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Flat Roof</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Ground Mount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Home Survey %28Plot Plan%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Landscape Modules</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Meter Combines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Meter Combines with more than 2 Meters</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Tile Roof Inset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Trenching</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Thermostat_Manufacturer__c</picklist>
+            <values>
+                <fullName>ecobee</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Thermostat_Model__c</picklist>
+            <values>
+                <fullName>Eco Bee3%2C HomeKit - Enabled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Design__c</picklist>
+            <values>
+                <fullName>Individual Permit Package</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual Plot %26 Permit Package</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual Plot Plan</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Was_house_built_before_1985__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Was_house_built_before_1987__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+  <recordTypes>
+        <fullName>SPD</fullName>
+        <active>true</active>
+        <label>SPD</label>
+        <picklistValues>
+            <picklist>Battery_Storage__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Can_solar_breaker_be_installed_in_MSP__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Cancellation_Justification__c</picklist>
+            <values>
+                <fullName>Cancelled within 7 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash Sale Conversion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change of Dealer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Changed Mind</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Death</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health %26 Personal Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Install - 6 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Internet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Permit issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rebate issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transferred to External IP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Consumption_Monitoring_Compatible__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>EV_Charger_Available__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Flat_Roof__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Further_discount_status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HERS__c</picklist>
+            <values>
+                <fullName>CalCERTs</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HOA__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hold_Justification__c</picklist>
+            <values>
+                <fullName>Customer Executed Upgrades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homeowner Financing %2F Contract Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homeowner Unresponsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Missing Documents</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Construction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Counter-Signed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Home_Survey__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Installation_Type__c</picklist>
+            <values>
+                <fullName>Clay Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Comp Shingle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat - Foam</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat - Rolled Comp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ground Mount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Inverter_Model__c</picklist>
+            <values>
+                <fullName>SPR-3000M</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Inverter_Status__c</picklist>
+            <values>
+                <fullName>Disabled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enabled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Breaker_Location__c</picklist>
+            <values>
+                <fullName>Bottom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Main Breaker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Top</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Breaker_Rating_Amps__c</picklist>
+            <values>
+                <fullName>100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>125</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>150</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>225</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>400</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Service_Panel_Location__c</picklist>
+            <values>
+                <fullName>Equipment Room</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exterior Wall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inside Garage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Service_Panel_Manufacturer__c</picklist>
+            <values>
+                <fullName>Bryant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ - Federal Pacific Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ - Pushmatic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ - Zinsco%2FSylvania</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eaton%2FCutler Hammer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Murray</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Square D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Westinghouse</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Materials_Ship_to_Location__c</picklist>
+            <values>
+                <fullName>Job Site</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Meter_Combiners__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Microinverter_Status__c</picklist>
+            <values>
+                <fullName>Not Synced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Synced</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MonitoringIncluded__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Monitoring__c</picklist>
+            <values>
+                <fullName>Production Only</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Mounting_Type__c</picklist>
+            <values>
+                <fullName>Invisimount - Flat Roof - Stanchion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Inset - SunModo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Inset - SunModo - Deck</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Metal Roof - S5 Mini</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Over Tile - QuickHook %28Low Height%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Over Tile - QuickHook %28Standard Height%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Over Tile - Stanchion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - SunModo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - SunModo - Deck</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Smart Mount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UniRac Solar Mount</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Multi_Level_Home__c</picklist>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Three Story</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two Story</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PDF_Copy_Only__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PV_Module_Model__c</picklist>
+            <values>
+                <fullName>230W %28Model SPR-230NE-BLK-D%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>250W %28Model SPR-X20-250-BLK%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>250W %28Model SPR-X20-250-BLK-B-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>327W %28Model SPR-327NE-WHT-D%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>327W %28Model SPR-E20-327-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>335W %28Model SPR-X21-335-BLK%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>335W %28Model SPR-X21-335-BLK-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>335W %28Model SPR-X21-335-WHT-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>345W %28Model SPR-X21-345%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>345W %28Model SPR-X21-345-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>360 WHT %28Model SPR-X22-360-WHT-D%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>360W %28Model SPR-X22-360-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pre_COE_Comm_Failure_Reason__c</picklist>
+            <values>
+                <fullName>Address availability</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation failure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Poor cell reception</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Server latency</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority__c</picklist>
+            <values>
+                <fullName>Fast-tracked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposed_Solar_Breaker_Installed_in_MSP__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_1_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_2_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_3_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_4_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_Age__c</picklist>
+            <values>
+                <fullName>0-5 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10-15 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15-20 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20%2B Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5-10 Years</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_Attachment__c</picklist>
+            <values>
+                <fullName>L-Foot Kit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_Type__c</picklist>
+            <values>
+                <fullName>Composite Shingle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metal Roof</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S-Tile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Smart_Thermostat__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SunPower_Deal_Type__c</picklist>
+            <values>
+                <fullName>Cash</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>System_Adders__c</picklist>
+            <values>
+                <fullName>IP-Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Critter Guard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Flat Roof</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Interconnection Application Fee%2E Projects %3E10Kw</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Interconnection Application Fee%2E Projects %3E15Kw</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Line Side Tap%2FDownsize Main Breaker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Locus Meter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Main Service Panel Upgrade</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Meter Combination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Plot Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Revenue Grade Meter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Roof Pitch %3E 36 Degree %289%3A12 Pitch%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not applicable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Cellular Monitoring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Flat Roof</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Ground Mount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Home Survey %28Plot Plan%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Landscape Modules</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Meter Combines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Meter Combines with more than 2 Meters</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Tile Roof Inset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Trenching</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Thermostat_Manufacturer__c</picklist>
+            <values>
+                <fullName>ecobee</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Thermostat_Model__c</picklist>
+            <values>
+                <fullName>Eco Bee3%2C HomeKit - Enabled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Design__c</picklist>
+            <values>
+                <fullName>Individual Permit Package</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual Plot %26 Permit Package</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual Plot Plan</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Was_house_built_before_1985__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Was_house_built_before_1987__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+  <recordTypes>
+        <fullName>TPS</fullName>
+        <active>true</active>
+        <description>Record Type for Third Party Sales</description>
+        <label>TPS</label>
+        <picklistValues>
+            <picklist>Battery_Storage__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Can_solar_breaker_be_installed_in_MSP__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Cancellation_Justification__c</picklist>
+            <values>
+                <fullName>Cancelled within 7 days</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cash Sale Conversion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Change of Dealer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Changed Mind</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Death</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Financial Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health %26 Personal Reason</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Health Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Install - 6 Months</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Internet</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Permit issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rebate issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Service Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transferred to External IP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Consumption_Monitoring_Compatible__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>EV_Charger_Available__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Flat_Roof__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Further_discount_status__c</picklist>
+            <values>
+                <fullName>Approved</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Approval</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HERS__c</picklist>
+            <values>
+                <fullName>CalCERTs</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>HOA__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hold_Justification__c</picklist>
+            <values>
+                <fullName>Customer Executed Upgrades</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homeowner Financing %2F Contract Change</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Homeowner Unresponsive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Missing Documents</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Construction</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Counter-Signed</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Home_Survey__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Installation_Type__c</picklist>
+            <values>
+                <fullName>Clay Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Comp Shingle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat - Foam</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat - Rolled Comp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ground Mount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>W Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Inverter_Model__c</picklist>
+            <values>
+                <fullName>SPR-3000M</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Inverter_Status__c</picklist>
+            <values>
+                <fullName>Disabled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enabled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Breaker_Location__c</picklist>
+            <values>
+                <fullName>Bottom</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Center</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No Main Breaker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Top</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Breaker_Rating_Amps__c</picklist>
+            <values>
+                <fullName>100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>125</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>150</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>200</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>225</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>300</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>400</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Service_Panel_Location__c</picklist>
+            <values>
+                <fullName>Equipment Room</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Exterior Wall</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inside Garage</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Main_Service_Panel_Manufacturer__c</picklist>
+            <values>
+                <fullName>Bryant</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Challenger</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ - Federal Pacific Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ - Pushmatic</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DQ - Zinsco%2FSylvania</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eaton%2FCutler Hammer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Murray</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Siemens</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Square D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Westinghouse</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Materials_Ship_to_Location__c</picklist>
+            <values>
+                <fullName>Job Site</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Warehouse</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Meter_Combiners__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Microinverter_Status__c</picklist>
+            <values>
+                <fullName>Not Synced</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Synced</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MonitoringIncluded__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Monitoring__c</picklist>
+            <values>
+                <fullName>Production Only</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Mounting_Type__c</picklist>
+            <values>
+                <fullName>Invisimount - Flat Roof - Stanchion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Inset - SunModo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Inset - SunModo - Deck</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Metal Roof - S5 Mini</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Over Tile - QuickHook %28Low Height%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Over Tile - QuickHook %28Standard Height%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - Over Tile - Stanchion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - SunModo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invisimount - SunModo - Deck</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Smart Mount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UniRac Solar Mount</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Multi_Level_Home__c</picklist>
+            <values>
+                <fullName>Single</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Three Story</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Two Story</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PDF_Copy_Only__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PV_Module_Model__c</picklist>
+            <values>
+                <fullName>230W %28Model SPR-230NE-BLK-D%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>250W %28Model SPR-X20-250-BLK%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>250W %28Model SPR-X20-250-BLK-B-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>327W %28Model SPR-327NE-WHT-D%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>327W %28Model SPR-E20-327-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>335W %28Model SPR-X21-335-BLK%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>335W %28Model SPR-X21-335-BLK-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>335W %28Model SPR-X21-335-WHT-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>345W %28Model SPR-X21-345%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>345W %28Model SPR-X21-345-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>360 WHT %28Model SPR-X22-360-WHT-D%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>360W %28Model SPR-X22-360-C-AC%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pre_COE_Comm_Failure_Reason__c</picklist>
+            <values>
+                <fullName>Address availability</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Installation failure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Poor cell reception</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Server latency</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority__c</picklist>
+            <values>
+                <fullName>Fast-tracked</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Normal</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proposed_Solar_Breaker_Installed_in_MSP__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_1_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_2_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_3_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_4_Pitch__c</picklist>
+            <values>
+                <fullName>1%3A12%285%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10%3A12%2840%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11%3A12%2843%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2%3A12%289%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3%3A12%2814%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4%3A12%2818%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%3A12%2823%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12%2827%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7%3A12%2830%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8%3A12%2834%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%3A12%2837%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat %28180%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greater than 12%3A12%2845%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_Age__c</picklist>
+            <values>
+                <fullName>0-5 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>10-15 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15-20 Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20%2B Years</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5-10 Years</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_Attachment__c</picklist>
+            <values>
+                <fullName>L-Foot Kit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_Type__c</picklist>
+            <values>
+                <fullName>Composite Shingle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Flat Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metal Roof</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>S-Tile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Smart_Thermostat__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Cancellation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>SunPower_Deal_Type__c</picklist>
+            <values>
+                <fullName>Cash</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lease</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>System_Adders__c</picklist>
+            <values>
+                <fullName>IP-Concrete Tile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Critter Guard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Flat Roof</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Interconnection Application Fee%2E Projects %3E10Kw</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Interconnection Application Fee%2E Projects %3E15Kw</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Line Side Tap%2FDownsize Main Breaker</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Locus Meter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Main Service Panel Upgrade</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Meter Combination</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Plot Plan</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Revenue Grade Meter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IP-Roof Pitch %3E 36 Degree %289%3A12 Pitch%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not applicable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Cellular Monitoring</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Flat Roof</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Ground Mount</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Home Survey %28Plot Plan%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Landscape Modules</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Meter Combines</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Meter Combines with more than 2 Meters</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Tile Roof Inset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TPS-Trenching</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Thermostat_Manufacturer__c</picklist>
+            <values>
+                <fullName>ecobee</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Thermostat_Model__c</picklist>
+            <values>
+                <fullName>Eco Bee3%2C HomeKit - Enabled</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Design__c</picklist>
+            <values>
+                <fullName>Individual Permit Package</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual Plot %26 Permit Package</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Individual Plot Plan</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Was_house_built_before_1985__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Was_house_built_before_1987__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+  <validationRules>
+        <fullName>Required_Pre_COE_Comm_Failure_Reason</fullName>
+        <active>true</active>
+        <description>This will make Pre-COE Comm. Failure Reason to required if "Pre-COE Comm. Status" = Failure</description>
+        <errorConditionFormula>AND(Pre_COE_Comm_Status__c  = "Failure",  ISPICKVAL( Pre_COE_Comm_Failure_Reason__c , "") )</errorConditionFormula>
+        <errorDisplayField>Pre_COE_Comm_Failure_Reason__c</errorDisplayField>
+        <errorMessage>Please input a "Pre-COE Comm Failure Reason".</errorMessage>
+    </validationRules>
+</CustomObject>

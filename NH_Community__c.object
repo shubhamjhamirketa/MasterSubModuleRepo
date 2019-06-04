@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <validationRules>
+        <fullName>Required_Reason_Won_Lost</fullName>
+        <active>true</active>
+        <description>Reason Lost is required when "Closed Lost"</description>
+        <errorConditionFormula>AND(ISPICKVAL( Stage__c , "Closed Lost"), ISPICKVAL( Reason_Won_Lost__c,"" ) )</errorConditionFormula>
+        <errorDisplayField>Reason_Won_Lost__c</errorDisplayField>
+        <errorMessage>Please input a "Reason Lost"</errorMessage>
+    </validationRules>
+  <validationRules>
+        <fullName>Set_Status_Blank</fullName>
+        <active>false</active>
+        <description>When user tries to manually update "Status" before "Stage" = "Contract Signed"</description>
+        <errorConditionFormula>AND(  NOT(  ISPICKVAL( Stage__c , "Contract Signed") ),   NOT( ISPICKVAL(  Community_Status__c , "") )  )</errorConditionFormula>
+        <errorDisplayField>Community_Status__c</errorDisplayField>
+        <errorMessage>Status cannot be set - there is no signed contract for this community</errorMessage>
+    </validationRules>
+</CustomObject>

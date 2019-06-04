@@ -1,0 +1,2679 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>NA_Commercial_Project</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+  <fields>
+        <fullName>Billing_Cycle__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>Billing Cycle</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Progress Billing</fullName>
+                    <default>false</default>
+                    <label>Progress Billing</label>
+                </value>
+                <value>
+                    <fullName>Milestone Billing</fullName>
+                    <default>false</default>
+                    <label>Milestone Billing</label>
+                </value>
+                <value>
+                    <fullName>Order Management</fullName>
+                    <default>false</default>
+                    <label>Order Management</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+  <fields>
+        <fullName>Bonds_Required_Other__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>Bonds Required (Other)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+  <fields>
+        <fullName>Bonds_Required__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>Bonds Required</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>Payment &amp; Performance</fullName>
+                    <default>false</default>
+                    <label>Payment &amp; Performance</label>
+                </value>
+                <value>
+                    <fullName>Payment Only</fullName>
+                    <default>false</default>
+                    <label>Payment Only</label>
+                </value>
+                <value>
+                    <fullName>Performance Only</fullName>
+                    <default>false</default>
+                    <label>Performance Only</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Bond</fullName>
+                    <default>false</default>
+                    <label>Maintenance Bond</label>
+                </value>
+                <value>
+                    <fullName>Easement Bond</fullName>
+                    <default>false</default>
+                    <label>Easement Bond</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+  <fields>
+        <fullName>Builder_s_Risk_Ins_Required__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>Builder's Risk Ins. Required</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Yes_No</valueSetName>
+        </valueSet>
+    </fields>
+  <fields>
+        <fullName>Certified_Payroll_Reports_Required__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>Certified Payroll Reports Required</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Yes_No</valueSetName>
+        </valueSet>
+    </fields>
+  <fields>
+        <fullName>Change_Order_Markup_Other__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>Change Order Markup % (Other)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+  <fields>
+        <fullName>Change_Order_Markup__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>Change Order Markup %</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>5%</fullName>
+                    <default>false</default>
+                    <label>5%</label>
+                </value>
+                <value>
+                    <fullName>10%</fullName>
+                    <default>false</default>
+                    <label>10%</label>
+                </value>
+                <value>
+                    <fullName>15%</fullName>
+                    <default>false</default>
+                    <label>15%</label>
+                </value>
+                <value>
+                    <fullName>20%</fullName>
+                    <default>false</default>
+                    <label>20%</label>
+                </value>
+                <value>
+                    <fullName>25%</fullName>
+                    <default>false</default>
+                    <label>25%</label>
+                </value>
+                <value>
+                    <fullName>30%</fullName>
+                    <default>false</default>
+                    <label>30%</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Not Specified</fullName>
+                    <default>false</default>
+                    <label>Not Specified</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+  <fields>
+        <fullName>Contract_Value__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>Contract Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+  <fields>
+        <fullName>Credit_Check_Completion__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>Credit Check Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+  <fields>
+        <fullName>Insurance_Certificate_Obtained__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>Insurance Certificate Obtained</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Yes_No</valueSetName>
+        </valueSet>
+    </fields>
+  <fields>
+        <fullName>MBE_SBE_WBE_Reports_Required__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>MBE/SBE/WBE Reports Required</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Yes_No</valueSetName>
+        </valueSet>
+    </fields>
+  <fields>
+        <fullName>O_M_Contract__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>O&amp;M Contract</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Included in EPC</fullName>
+                    <default>false</default>
+                    <label>Included in EPC</label>
+                </value>
+                <value>
+                    <fullName>No O&amp;M Contract</fullName>
+                    <default>false</default>
+                    <label>No O&amp;M Contract</label>
+                </value>
+                <value>
+                    <fullName>Separate Contract</fullName>
+                    <default>false</default>
+                    <label>Separate Contract</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+  <fields>
+        <fullName>Old_Sys_ContractNumber__c</fullName>
+        <description>This field is used to capture the Old Contract number from System</description>
+        <externalId>false</externalId>
+        <label>Contract Number</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+  <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Contracts</relationshipLabel>
+        <relationshipName>Contracts</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+  <fields>
+        <fullName>Payment_Terms_Other__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>Payment Terms (Other)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+  <fields>
+        <fullName>Payment_Terms__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>Payment Terms</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Net 7</fullName>
+                    <default>false</default>
+                    <label>Net 7</label>
+                </value>
+                <value>
+                    <fullName>Net 10</fullName>
+                    <default>false</default>
+                    <label>Net 10</label>
+                </value>
+                <value>
+                    <fullName>Net 15</fullName>
+                    <default>false</default>
+                    <label>Net 15</label>
+                </value>
+                <value>
+                    <fullName>Net 20</fullName>
+                    <default>false</default>
+                    <label>Net 20</label>
+                </value>
+                <value>
+                    <fullName>Net 30</fullName>
+                    <default>false</default>
+                    <label>Net 30</label>
+                </value>
+                <value>
+                    <fullName>Net 45</fullName>
+                    <default>false</default>
+                    <label>Net 45</label>
+                </value>
+                <value>
+                    <fullName>Net 60</fullName>
+                    <default>false</default>
+                    <label>Net 60</label>
+                </value>
+                <value>
+                    <fullName>EOM</fullName>
+                    <default>false</default>
+                    <label>EOM</label>
+                </value>
+                <value>
+                    <fullName>PrePayment</fullName>
+                    <default>false</default>
+                    <label>PrePayment</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+  <fields>
+        <fullName>Penalty_or_Liquidated_Damage_Risk__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>Penalty or Liquidated Damage Risk</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Yes_No</valueSetName>
+        </valueSet>
+    </fields>
+  <fields>
+        <fullName>Prevailing_Wage_Required__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>Prevailing Wage Required</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Yes_No</valueSetName>
+        </valueSet>
+    </fields>
+  <fields>
+        <fullName>Project_Completion_Date__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Commercial_Operation_Date__c</formula>
+        <label>Project Completion Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+  <fields>
+        <fullName>Retention_Withholding_Other__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>Retention Withholding (Other)</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+  <fields>
+        <fullName>Retention_Withholding__c</fullName>
+        <description>#165471388</description>
+        <externalId>false</externalId>
+        <label>Retention Withholding</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>None</fullName>
+                    <default>false</default>
+                    <label>None</label>
+                </value>
+                <value>
+                    <fullName>5%</fullName>
+                    <default>false</default>
+                    <label>5%</label>
+                </value>
+                <value>
+                    <fullName>9%</fullName>
+                    <default>false</default>
+                    <label>9%</label>
+                </value>
+                <value>
+                    <fullName>10%</fullName>
+                    <default>false</default>
+                    <label>10%</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+  <recordTypes>
+        <fullName>NA_Commercial_Project</fullName>
+        <active>true</active>
+        <description>NA Commercial Contracts (#165471388)</description>
+        <label>NA Commercial Project</label>
+        <picklistValues>
+            <picklist>Avg_Location_Size__c</picklist>
+            <values>
+                <fullName>abc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>xyz</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Billing_Cycle__c</picklist>
+            <values>
+                <fullName>Milestone Billing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Progress Billing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Bonds_Required__c</picklist>
+            <values>
+                <fullName>Easement Bond</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance Bond</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment %26 Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance Only</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Builder_s_Risk_Ins_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Certified_Payroll_Reports_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Change_Order_Markup__c</picklist>
+            <values>
+                <fullName>10%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>25%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>30%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Specified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Contract_Type__c</picklist>
+            <values>
+                <fullName>2013 Lead Handling Policy Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2013 New Homes Installation Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2013 North American Lease Program DPA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2013 North American Lease Program DPA %E2%80%93 HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2013 SSE Installation Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2014 New Homes Installation Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2014 SSE Installation Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AUS Alliance Program Partner Service Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Admirals Loan Program Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Admirals Loan Program Agreement - Existing Relationship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alliance Dealer Agreement Addendum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alliance Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BE Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BE Authorized Sunrise Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BE Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BE Residential Installer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial Alliance Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial Alliance Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Acceptance Form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Finance Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DBS - Marketing Campaign Participation Acknowledgement Receipt Form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DCU Financing Program %E2%80%93 Amended and Restated Partner Agreement 2014</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DCU Financing Program Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE Authorized Sunrise Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE Residential Installer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Agreement - Ford DGFL Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer-Managed Inventory Addendum %E2%80%93 Prepositioned</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design Layout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Discount Alliance Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ES Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ES Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EU Alliance Program Partner Service Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EU Distributor Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EU Purchase Order Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EU Settlement Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EU Volume and Special price agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FR Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FR Authorized Sunrise Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FR Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FR Residential Installer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ford Drive Green for Life Discount Alliance Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Google Adwords DPF Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Helix PPA - EPC Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Helix PPA Participation Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Authorized Sunrise Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Residential Installer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>July 2014 SPIFF Consent Form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Handling Policy Agreement %E2%80%93 Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Master Dealer Amendment to SunPower Residential Dealer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Master Dealer Requirements Exhibit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Canada Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Canada Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Commercial Dealer Program Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Commercial Dealer Program Agreement - 2016</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Commercial Reseller Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Dealer Lease Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Dealer Refer-a-Friend Program Participation Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Discount Alliance Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Lease 2%2E0 Program Participation Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Lease Program Participation Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Offshore Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Offshore Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Reseller Agreement Locations Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Alliance Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Inverter Loyalty Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Lease Dealer Participation Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Loyalty Commitment Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential PV Loyalty Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Reseller Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Reseller Agreement 2011</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Sales Promotion Consent Form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA SAC Dealer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA SunPower Lease DPA version 2016</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA SunPower Residential Dealer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NL Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NL Authorized Sunrise Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Homes Installation Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Homes Partner Installation Agreement Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nissan LEAF Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Disclosure Agreement %28NDA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Disclosure Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Orchard Supply Program Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project California Addendum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Razorback Addendum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residential Inspection Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residential Maintenance Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMUD Sweepstakes Lead Generation Program Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPD Installation Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPD Partner Agreement Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SSE Subcontractor Award</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower %E2%80%93 2016 DPA HI Addendum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower 2013 Lease Program DPA Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower DPA Addendum HI Dealers 2014</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Dealer Lease Contest - Dealer Consent Form 49er</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower First Tech Loan Program Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Hawaii %2714 Lease Spiff Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Lead Program Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Lease DPA version 2014</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Lease NTP ITC Compliance Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower March %2714 Lease Spiff Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower PG%26E Winter %2714 Lease Contest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Partner Subcontractor Authorization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Partner Subcontractor Authorization %E2%80%93 Lease</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Photovoltaic Equipment Supply Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Residential Home Improvement Contract DPA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Take Flight Lease Sweepstakes %E2%80%93 2016</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Winter %2714 Lease SPIFF Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sunrise 2 Addendum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Third Party Seller Participation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UK Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UK Authorized Sunrise Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virtual Power Plant %28VPP%29 Development Agreement</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Customer_Finance_Program__c</picklist>
+            <values>
+                <fullName>DE CVAR ESCROW EscrowEuropa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ES CVAR Leasing BBVA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ES CVAR PublicRenting BBVA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT CVAR Leasing Progetto Leasing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT RVAR Signature Loan Prestitempo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Insurance_Certificate_Obtained__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MBE_SBE_WBE_Reports_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MW_Potential_No_Current_Incentives__c</picklist>
+            <values>
+                <fullName>abc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>xyz</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MW_Potential__c</picklist>
+            <values>
+                <fullName>one</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>two</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>O_M_Contract__c</picklist>
+            <values>
+                <fullName>Included in EPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No O%26M Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Separate Contract</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Terms__c</picklist>
+            <values>
+                <fullName>EOM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 30</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 45</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 60</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PrePayment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Penalty_or_Liquidated_Damage_Risk__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Prevailing_Wage_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Retention_Withholding__c</picklist>
+            <values>
+                <fullName>10%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled %2F Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Approval Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out for Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting for Counter-Signature</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+  <recordTypes>
+        <fullName>Partner</fullName>
+        <active>true</active>
+        <description>Partner Contracts</description>
+        <label>Partner</label>
+        <picklistValues>
+            <picklist>Billing_Cycle__c</picklist>
+            <values>
+                <fullName>Milestone Billing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Progress Billing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Bonds_Required__c</picklist>
+            <values>
+                <fullName>Easement Bond</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance Bond</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment %26 Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance Only</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Builder_s_Risk_Ins_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Certified_Payroll_Reports_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Change_Order_Markup__c</picklist>
+            <values>
+                <fullName>10%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>25%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>30%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Specified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Contract_Type__c</picklist>
+            <values>
+                <fullName>2013 Lead Handling Policy Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2013 New Homes Installation Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2013 North American Lease Program DPA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2013 North American Lease Program DPA %E2%80%93 HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AUS Alliance Program Partner Service Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Admirals Loan Program Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Admirals Loan Program Agreement - Existing Relationship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alliance Dealer Agreement Addendum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BE Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BE Authorized Sunrise Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BE Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BE Residential Installer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commercial Alliance Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Acceptance Form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Finance Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DBS - Marketing Campaign Participation Acknowledgement Receipt Form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DCU Financing Program %E2%80%93 Amended and Restated Partner Agreement 2014</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DCU Financing Program Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE Authorized Sunrise Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE Residential Installer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Agreement - Ford DGFL Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer-Managed Inventory Addendum %E2%80%93 Prepositioned</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design Layout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ES Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ES Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EU Alliance Program Partner Service Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EU Distributor Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EU Purchase Order Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EU Settlement Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EU Volume and Special price agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FR Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FR Authorized Sunrise Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FR Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FR Residential Installer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ford Drive Green for Life Discount Alliance Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Google Adwords DPF Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Helix PPA - EPC Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Helix PPA Participation Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Authorized Sunrise Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Residential Installer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>July 2014 SPIFF Consent Form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead Handling Policy Agreement %E2%80%93 Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Master Dealer Amendment to SunPower Residential Dealer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Master Dealer Requirements Exhibit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Canada Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Canada Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Commercial Dealer Program Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Commercial Dealer Program Agreement - 2016</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Commercial Reseller Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Dealer Refer-a-Friend Program Participation Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Discount Alliance Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Lease 2%2E0 Program Participation Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Lease Program Participation Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Reseller Agreement Locations Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Alliance Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Inverter Loyalty Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Lease Dealer Participation Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Loyalty Commitment Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential PV Loyalty Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Reseller Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Reseller Agreement 2011</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Sales Promotion Consent Form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA SAC Dealer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA SunPower Lease DPA version 2016</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA SunPower Residential Dealer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NL Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NL Authorized Sunrise Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Homes Installation Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Homes Partner Installation Agreement Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Disclosure Agreement %28NDA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Disclosure Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Orchard Supply Program Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project California Addendum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Project Razorback Addendum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residential Inspection Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residential Maintenance Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMUD Sweepstakes Lead Generation Program Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPD Installation Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPD Partner Agreement Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SSE Subcontractor Award</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower %E2%80%93 2016 DPA HI Addendum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower 2013 Lease Program DPA Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower DPA Addendum HI Dealers 2014</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Dealer Lease Contest - Dealer Consent Form 49er</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower First Tech Loan Program Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Hawaii %2714 Lease Spiff Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Lead Program Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Lease DPA version 2014</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Lease NTP ITC Compliance Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower March %2714 Lease Spiff Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower PG%26E Winter %2714 Lease Contest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Partner Subcontractor Authorization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Partner Subcontractor Authorization %E2%80%93 Lease</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Photovoltaic Equipment Supply Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Residential Home Improvement Contract DPA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Take Flight Lease Sweepstakes %E2%80%93 2016</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Winter %2714 Lease SPIFF Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Third Party Seller Participation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UK Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UK Authorized Sunrise Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Virtual Power Plant %28VPP%29 Development Agreement</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Customer_Finance_Program__c</picklist>
+            <values>
+                <fullName>DE CVAR ESCROW EscrowEuropa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ES CVAR Leasing BBVA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ES CVAR PublicRenting BBVA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT CVAR Leasing Progetto Leasing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT RVAR Signature Loan Prestitempo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Insurance_Certificate_Obtained__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MBE_SBE_WBE_Reports_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>O_M_Contract__c</picklist>
+            <values>
+                <fullName>Included in EPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No O%26M Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Separate Contract</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Terms__c</picklist>
+            <values>
+                <fullName>EOM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 30</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 45</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 60</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PrePayment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Penalty_or_Liquidated_Damage_Risk__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Prevailing_Wage_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Retention_Withholding__c</picklist>
+            <values>
+                <fullName>10%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled %2F Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Approval Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out for Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting for Counter-Signature</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+  <recordTypes>
+        <fullName>Standard_Contract_Type</fullName>
+        <active>true</active>
+        <label>Standard Contract Type</label>
+        <picklistValues>
+            <picklist>Avg_Location_Size__c</picklist>
+            <values>
+                <fullName>abc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>xyz</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Billing_Cycle__c</picklist>
+            <values>
+                <fullName>Milestone Billing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Order Management</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Progress Billing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Bonds_Required__c</picklist>
+            <values>
+                <fullName>Easement Bond</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maintenance Bond</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment %26 Performance</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Payment Only</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Performance Only</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Builder_s_Risk_Ins_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Certified_Payroll_Reports_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Change_Order_Markup__c</picklist>
+            <values>
+                <fullName>10%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>25%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>30%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Specified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Contract_Type__c</picklist>
+            <values>
+                <fullName>2013 Lead Handling Policy Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2013 New Homes Installation Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2013 North American Lease Program DPA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2013 North American Lease Program DPA %E2%80%93 HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AUS Alliance Program Partner Service Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Admirals Loan Program Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Admirals Loan Program Agreement - Existing Relationship</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alliance Dealer Agreement Addendum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BE Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BE Authorized Sunrise Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BE Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BE Residential Installer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Acceptance Form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Customer Finance Service</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DBS - Marketing Campaign Participation Acknowledgement Receipt Form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DCU Financing Program Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE Authorized Sunrise Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE Residential Installer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer Agreement - Ford DGFL Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dealer-Managed Inventory Addendum %E2%80%93 Prepositioned</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Design Layout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ES Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ES Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EU Alliance Program Partner Service Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EU Distributor Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EU Purchase Order Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EU Settlement Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EU Volume and Special price agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FR Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FR Authorized Sunrise Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FR Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FR Residential Installer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ford Drive Green for Life Discount Alliance Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Google Adwords DPF Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Authorized Sunrise Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT Residential Installer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>July 2014 SPIFF Consent Form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Canada Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Canada Premier Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Commercial Dealer Program Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Commercial Reseller Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Dealer Refer-a-Friend Program Participation Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Discount Alliance Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Lease 2%2E0 Program Participation Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Lease Program Participation Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Alliance Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Inverter Loyalty Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential PV Loyalty Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Reseller Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA Residential Reseller Agreement 2011</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA SAC Dealer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA SunPower Lease DPA version 2016</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NA SunPower Residential Dealer Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NL Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NL Authorized Sunrise Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Homes Installation Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non Disclosure Agreement %28NDA%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Disclosure Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Orchard Supply Program Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residential Inspection Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Residential Maintenance Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMUD Sweepstakes Lead Generation Program Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPD Installation Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SPD Partner Agreement Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SSE Subcontractor Award</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower %E2%80%93 2016 DPA HI Addendum</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower 2013 Lease Program DPA Amendment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower DPA Addendum HI Dealers 2014</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower First Tech Loan Program Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Lease DPA version 2014</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Lease NTP ITC Compliance Letter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower March %2714 Lease Spiff Program</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Partner Subcontractor Authorization</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Partner Subcontractor Authorization %E2%80%93 Lease</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SunPower Photovoltaic Equipment Supply Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Third Party Seller Participation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UK Authorized Partner Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UK Authorized Sunrise Agreement</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Customer_Finance_Program__c</picklist>
+            <values>
+                <fullName>DE CVAR ESCROW EscrowEuropa</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ES CVAR Leasing BBVA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ES CVAR PublicRenting BBVA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT CVAR Leasing Progetto Leasing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IT RVAR Signature Loan Prestitempo</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Insurance_Certificate_Obtained__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MBE_SBE_WBE_Reports_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MW_Potential_No_Current_Incentives__c</picklist>
+            <values>
+                <fullName>abc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>xyz</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>MW_Potential__c</picklist>
+            <values>
+                <fullName>one</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>two</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>O_M_Contract__c</picklist>
+            <values>
+                <fullName>Included in EPC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No O%26M Contract</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Separate Contract</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Payment_Terms__c</picklist>
+            <values>
+                <fullName>EOM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 30</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 45</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 60</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Net 7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PrePayment</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Penalty_or_Liquidated_Damage_Risk__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Prevailing_Wage_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Retention_Withholding__c</picklist>
+            <values>
+                <fullName>10%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9%25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>None</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Activated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cancelled %2F Declined</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Approval Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out for Signature</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting for Counter-Signature</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+  <validationRules>
+        <fullName>Bonds_Required_Other_Required</fullName>
+        <active>true</active>
+        <description>#165471388 - field required when Bonds Required is 'Other'</description>
+        <errorConditionFormula>AND (
+  NOT($User.ByPassValidation__c),
+  RecordType.DeveloperName = 'NA_Commercial_Project',
+  ISPICKVAL( Bonds_Required__c , 'Other'),
+  ISBLANK( Bonds_Required_Other__c ) 
+)</errorConditionFormula>
+        <errorDisplayField>Bonds_Required_Other__c</errorDisplayField>
+        <errorMessage>Bonds Required (Other) is required</errorMessage>
+    </validationRules>
+  <validationRules>
+        <fullName>Change_Order_Markup_Required</fullName>
+        <active>true</active>
+        <description>#165471388 - field required when Change Order Markup is 'Other'</description>
+        <errorConditionFormula>AND (
+  NOT($User.ByPassValidation__c),
+  RecordType.DeveloperName = 'NA_Commercial_Project',
+  ISPICKVAL( Change_Order_Markup__c , 'Other'),
+  ISBLANK( Change_Order_Markup_Other__c ) 
+)</errorConditionFormula>
+        <errorDisplayField>Change_Order_Markup_Other__c</errorDisplayField>
+        <errorMessage>Change Order Markup % (Other) is required</errorMessage>
+    </validationRules>
+  <validationRules>
+        <fullName>Payment_Terms_Other_Required</fullName>
+        <active>true</active>
+        <description>#165471388 - field required when Payment Terms is 'Other'</description>
+        <errorConditionFormula>AND (
+  NOT($User.ByPassValidation__c),
+  RecordType.DeveloperName = 'NA_Commercial_Project',
+  ISPICKVAL( Payment_Terms__c , 'Other'),
+  ISBLANK( Payment_Terms_Other__c ) 
+)</errorConditionFormula>
+        <errorDisplayField>Payment_Terms_Other__c</errorDisplayField>
+        <errorMessage>Payment Terms (Other) is required</errorMessage>
+    </validationRules>
+  <validationRules>
+        <fullName>Retention_Withholding_Other_Required</fullName>
+        <active>true</active>
+        <description>#165471388 - field required when Retention Withholding is 'Other'</description>
+        <errorConditionFormula>AND (
+  NOT($User.ByPassValidation__c),
+  RecordType.DeveloperName = 'NA_Commercial_Project',
+  ISPICKVAL(Retention_Withholding__c, 'Other'),
+  ISBLANK( Retention_Withholding_Other__c ) 
+)</errorConditionFormula>
+        <errorDisplayField>Retention_Withholding_Other__c</errorDisplayField>
+        <errorMessage>Retention Withholding (Other) is required</errorMessage>
+    </validationRules>
+</CustomObject>

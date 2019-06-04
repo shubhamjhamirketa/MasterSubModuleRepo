@@ -1,0 +1,2370 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+        <fullName>Utility__c</fullName>
+        <externalId>false</externalId>
+        <label>Utility</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Alameda Municipal Power</fullName>
+                    <default>false</default>
+                    <label>Alameda Municipal Power</label>
+                </value>
+                <value>
+                    <fullName>Ameren</fullName>
+                    <default>false</default>
+                    <label>Ameren</label>
+                </value>
+                <value>
+                    <fullName>Ameren Illinois</fullName>
+                    <default>false</default>
+                    <label>Ameren Illinois</label>
+                </value>
+                <value>
+                    <fullName>American Electric Power (AEP)</fullName>
+                    <default>false</default>
+                    <label>American Electric Power (AEP)</label>
+                </value>
+                <value>
+                    <fullName>Anaheim Public Utility</fullName>
+                    <default>false</default>
+                    <label>Anaheim Public Utility</label>
+                </value>
+                <value>
+                    <fullName>APS</fullName>
+                    <default>false</default>
+                    <label>APS</label>
+                </value>
+                <value>
+                    <fullName>Atlantic City Electric (ACE)</fullName>
+                    <default>false</default>
+                    <label>Atlantic City Electric (ACE)</label>
+                </value>
+                <value>
+                    <fullName>BG&amp;E</fullName>
+                    <default>false</default>
+                    <label>BG&amp;E</label>
+                </value>
+                <value>
+                    <fullName>Burbank W&amp;P</fullName>
+                    <default>false</default>
+                    <label>Burbank W&amp;P</label>
+                </value>
+                <value>
+                    <fullName>Canadian Utility</fullName>
+                    <default>false</default>
+                    <label>Canadian Utility</label>
+                </value>
+                <value>
+                    <fullName>CE Electric (NEDL)</fullName>
+                    <default>false</default>
+                    <label>CE Electric (NEDL)</label>
+                </value>
+                <value>
+                    <fullName>CE Electric (YEDL)</fullName>
+                    <default>false</default>
+                    <label>CE Electric (YEDL)</label>
+                </value>
+                <value>
+                    <fullName>CenterPoint</fullName>
+                    <default>false</default>
+                    <label>CenterPoint</label>
+                </value>
+                <value>
+                    <fullName>Central Hudson</fullName>
+                    <default>false</default>
+                    <label>Central Hudson</label>
+                </value>
+                <value>
+                    <fullName>Central Networks</fullName>
+                    <default>false</default>
+                    <label>Central Networks</label>
+                </value>
+                <value>
+                    <fullName>City of Lodi</fullName>
+                    <default>false</default>
+                    <label>City of Lodi</label>
+                </value>
+                <value>
+                    <fullName>City of Pasadena</fullName>
+                    <default>false</default>
+                    <label>City of Pasadena</label>
+                </value>
+                <value>
+                    <fullName>City of Redding</fullName>
+                    <default>false</default>
+                    <label>City of Redding</label>
+                </value>
+                <value>
+                    <fullName>Colton Electric</fullName>
+                    <default>false</default>
+                    <label>Colton Electric</label>
+                </value>
+                <value>
+                    <fullName>ComEd</fullName>
+                    <default>false</default>
+                    <label>ComEd</label>
+                </value>
+                <value>
+                    <fullName>Conectiv</fullName>
+                    <default>false</default>
+                    <label>Conectiv</label>
+                </value>
+                <value>
+                    <fullName>Con Edison</fullName>
+                    <default>false</default>
+                    <label>Con Edison</label>
+                </value>
+                <value>
+                    <fullName>Connecticut Light &amp; Power</fullName>
+                    <default>false</default>
+                    <label>Connecticut Light &amp; Power</label>
+                </value>
+                <value>
+                    <fullName>Corona</fullName>
+                    <default>false</default>
+                    <label>Corona</label>
+                </value>
+                <value>
+                    <fullName>CPS</fullName>
+                    <default>false</default>
+                    <label>CPS</label>
+                </value>
+                <value>
+                    <fullName>Delmarva Power</fullName>
+                    <default>false</default>
+                    <label>Delmarva Power</label>
+                </value>
+                <value>
+                    <fullName>Duke Energy</fullName>
+                    <default>false</default>
+                    <label>Duke Energy</label>
+                </value>
+                <value>
+                    <fullName>EDF Energy</fullName>
+                    <default>false</default>
+                    <label>EDF Energy</label>
+                </value>
+                <value>
+                    <fullName>Electricity North West Ltd</fullName>
+                    <default>false</default>
+                    <label>Electricity North West Ltd</label>
+                </value>
+                <value>
+                    <fullName>Enel</fullName>
+                    <default>false</default>
+                    <label>Enel</label>
+                </value>
+                <value>
+                    <fullName>Essex PL</fullName>
+                    <default>false</default>
+                    <label>Essex PL</label>
+                </value>
+                <value>
+                    <fullName>Eversource</fullName>
+                    <default>false</default>
+                    <label>Eversource</label>
+                </value>
+                <value>
+                    <fullName>Eversource CT</fullName>
+                    <default>false</default>
+                    <label>Eversource CT</label>
+                </value>
+                <value>
+                    <fullName>Eversource EMA</fullName>
+                    <default>false</default>
+                    <label>Eversource EMA</label>
+                </value>
+                <value>
+                    <fullName>Eversource WMA</fullName>
+                    <default>false</default>
+                    <label>Eversource WMA</label>
+                </value>
+                <value>
+                    <fullName>Glendale W&amp;P</fullName>
+                    <default>false</default>
+                    <label>Glendale W&amp;P</label>
+                </value>
+                <value>
+                    <fullName>HECO</fullName>
+                    <default>false</default>
+                    <label>HECO</label>
+                </value>
+                <value>
+                    <fullName>HELCO</fullName>
+                    <default>false</default>
+                    <label>HELCO</label>
+                </value>
+                <value>
+                    <fullName>Hellenic Transmission System Operator</fullName>
+                    <default>false</default>
+                    <label>Hellenic Transmission System Operator</label>
+                </value>
+                <value>
+                    <fullName>Hydro One</fullName>
+                    <default>false</default>
+                    <label>Hydro One</label>
+                </value>
+                <value>
+                    <fullName>JCP&amp;L</fullName>
+                    <default>false</default>
+                    <label>JCP&amp;L</label>
+                </value>
+                <value>
+                    <fullName>KIUC</fullName>
+                    <default>false</default>
+                    <label>KIUC</label>
+                </value>
+                <value>
+                    <fullName>LADWP</fullName>
+                    <default>false</default>
+                    <label>LADWP</label>
+                </value>
+                <value>
+                    <fullName>MECO</fullName>
+                    <default>false</default>
+                    <label>MECO</label>
+                </value>
+                <value>
+                    <fullName>Merced Irrigation District</fullName>
+                    <default>false</default>
+                    <label>Merced Irrigation District</label>
+                </value>
+                <value>
+                    <fullName>MidAmerican</fullName>
+                    <default>false</default>
+                    <label>MidAmerican</label>
+                </value>
+                <value>
+                    <fullName>National Grid</fullName>
+                    <default>false</default>
+                    <label>National Grid</label>
+                </value>
+                <value>
+                    <fullName>National Grid MA</fullName>
+                    <default>false</default>
+                    <label>National Grid MA</label>
+                </value>
+                <value>
+                    <fullName>National Grid NY</fullName>
+                    <default>false</default>
+                    <label>National Grid NY</label>
+                </value>
+                <value>
+                    <fullName>NSTAR</fullName>
+                    <default>false</default>
+                    <label>NSTAR</label>
+                </value>
+                <value>
+                    <fullName>NV Energy</fullName>
+                    <default>false</default>
+                    <label>NV Energy</label>
+                </value>
+                <value>
+                    <fullName>Oncor</fullName>
+                    <default>false</default>
+                    <label>Oncor</label>
+                </value>
+                <value>
+                    <fullName>ORU</fullName>
+                    <default>false</default>
+                    <label>ORU</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Other-CA</fullName>
+                    <default>false</default>
+                    <label>Other-CA</label>
+                </value>
+                <value>
+                    <fullName>Other-HI</fullName>
+                    <default>false</default>
+                    <label>Other-HI</label>
+                </value>
+                <value>
+                    <fullName>Other-NJ</fullName>
+                    <default>false</default>
+                    <label>Other-NJ</label>
+                </value>
+                <value>
+                    <fullName>Pacific Power - Rocky Mountain Power</fullName>
+                    <default>false</default>
+                    <label>Pacific Power - Rocky Mountain Power</label>
+                </value>
+                <value>
+                    <fullName>Palo Alto</fullName>
+                    <default>false</default>
+                    <label>Palo Alto</label>
+                </value>
+                <value>
+                    <fullName>PAT-1D</fullName>
+                    <default>false</default>
+                    <label>PAT-1D</label>
+                </value>
+                <value>
+                    <fullName>PECO</fullName>
+                    <default>false</default>
+                    <label>PECO</label>
+                </value>
+                <value>
+                    <fullName>PEPCO</fullName>
+                    <default>false</default>
+                    <label>PEPCO</label>
+                </value>
+                <value>
+                    <fullName>PG&amp;E</fullName>
+                    <default>false</default>
+                    <label>PG&amp;E</label>
+                </value>
+                <value>
+                    <fullName>PNM</fullName>
+                    <default>false</default>
+                    <label>PNM</label>
+                </value>
+                <value>
+                    <fullName>Potomac Edison</fullName>
+                    <default>false</default>
+                    <label>Potomac Edison</label>
+                </value>
+                <value>
+                    <fullName>PPL</fullName>
+                    <default>false</default>
+                    <label>PPL</label>
+                </value>
+                <value>
+                    <fullName>PSE&amp;G</fullName>
+                    <default>false</default>
+                    <label>PSE&amp;G</label>
+                </value>
+                <value>
+                    <fullName>PSE&amp;G Long Island</fullName>
+                    <default>false</default>
+                    <label>PSE&amp;G Long Island</label>
+                </value>
+                <value>
+                    <fullName>PUC</fullName>
+                    <default>false</default>
+                    <label>PUC</label>
+                </value>
+                <value>
+                    <fullName>Riverside Public Utility</fullName>
+                    <default>false</default>
+                    <label>Riverside Public Utility</label>
+                </value>
+                <value>
+                    <fullName>Rock Hill Utilities</fullName>
+                    <default>false</default>
+                    <label>Rock Hill Utilities</label>
+                </value>
+                <value>
+                    <fullName>Roseville Electric</fullName>
+                    <default>false</default>
+                    <label>Roseville Electric</label>
+                </value>
+                <value>
+                    <fullName>SCE</fullName>
+                    <default>false</default>
+                    <label>SCE</label>
+                </value>
+                <value>
+                    <fullName>SDG&amp;E</fullName>
+                    <default>false</default>
+                    <label>SDG&amp;E</label>
+                </value>
+                <value>
+                    <fullName>Silicon Valley Power</fullName>
+                    <default>false</default>
+                    <label>Silicon Valley Power</label>
+                </value>
+                <value>
+                    <fullName>SMUD</fullName>
+                    <default>false</default>
+                    <label>SMUD</label>
+                </value>
+                <value>
+                    <fullName>SoCal gas</fullName>
+                    <default>false</default>
+                    <label>SoCal gas</label>
+                </value>
+                <value>
+                    <fullName>SP Manweb</fullName>
+                    <default>false</default>
+                    <label>SP Manweb</label>
+                </value>
+                <value>
+                    <fullName>SP Power Systems</fullName>
+                    <default>false</default>
+                    <label>SP Power Systems</label>
+                </value>
+                <value>
+                    <fullName>SRP</fullName>
+                    <default>false</default>
+                    <label>SRP</label>
+                </value>
+                <value>
+                    <fullName>SSE Power Distribution</fullName>
+                    <default>false</default>
+                    <label>SSE Power Distribution</label>
+                </value>
+                <value>
+                    <fullName>TEP</fullName>
+                    <default>false</default>
+                    <label>TEP</label>
+                </value>
+                <value>
+                    <fullName>Terna</fullName>
+                    <default>false</default>
+                    <label>Terna</label>
+                </value>
+                <value>
+                    <fullName>TNMP</fullName>
+                    <default>false</default>
+                    <label>TNMP</label>
+                </value>
+                <value>
+                    <fullName>Toronto Hydro Electric</fullName>
+                    <default>false</default>
+                    <label>Toronto Hydro Electric</label>
+                </value>
+                <value>
+                    <fullName>United Illuminating Company</fullName>
+                    <default>false</default>
+                    <label>United Illuminating Company</label>
+                </value>
+                <value>
+                    <fullName>Western Power Distribution</fullName>
+                    <default>false</default>
+                    <label>Western Power Distribution</label>
+                </value>
+                <value>
+                    <fullName>WMECO</fullName>
+                    <default>false</default>
+                    <label>WMECO</label>
+                </value>
+                <value>
+                    <fullName>Xcel</fullName>
+                    <default>false</default>
+                    <label>Xcel</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+  <recordTypes>
+        <fullName>Standard_Site</fullName>
+        <active>true</active>
+        <description>Use this to create a standard site related to an account and/or opportunity.</description>
+        <label>Standard Site</label>
+        <picklistValues>
+            <picklist>Access_for_53ft_Truck__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Sure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Biological_Cultural_surveys_completed__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Constraints_Analysis__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Corrosion_Category__c</picklist>
+            <values>
+                <fullName>C1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C4</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Customer_on_Critical_Peak_Pricing__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Customer_recieves_power_from_wholesaler__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Days_Week_Facility_is_Used__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Distance_to_transmission_69V_line__c</picklist>
+            <values>
+                <fullName>%3C 1 mile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%3C 3 miles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%3C 5 miles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%3C 7 miles</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Do_they_have_solar_guidelines__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Do_we_need_to_show_a_building_elevation__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Earthwork_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Energy_Intelligence_Solutions__c</picklist>
+            <values>
+                <fullName>EnergyLink Basic %28No Solar%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EnergyLink Basic %2B SSR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EnergyLink Industrial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EnergyLink Professional</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EnergyLink Standard</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-EnerNOC product</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pulse Meter Required</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Existing_Cement_Pad_for_Inverter__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Sure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Exposure_Type__c</picklist>
+            <values>
+                <fullName>B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Final_Environmental_Impact_EI_Asst__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>First_Screen_Site_Eval__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Flood_Zone__c</picklist>
+            <values>
+                <fullName>A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>A99</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AE%2C A1-A30</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>B%2C X</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>C%2C X</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>V</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VE%2C V1-V30</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Forecast_Commitment__c</picklist>
+            <values>
+                <fullName>Best Case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Commit</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Generating_Facility_will_be_owned_by_3rd__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Geotech__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Grid_Connection_License__c</picklist>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Height_of_100_yr_or_less_flood_zone__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Incentives_Assumed_in_Pricing__c</picklist>
+            <values>
+                <fullName>ITC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SGIP</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Inverter_Located_Inside_Outside__c</picklist>
+            <values>
+                <fullName>Electrical Room</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inside-Not Sure if Ventilated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inside-Not Ventilated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inside-Ventilated</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outside %28with Sheltered Space%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outside %28without Sheltered Space%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Outside-On Roof</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBD</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Is_there_a_fire_review__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Land_Permitting_Completed__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Land_Type__c</picklist>
+            <values>
+                <fullName>Dismissed Agricultural Land</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Dump</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Generic Industrial Land</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Polluted Land</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Quarry</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Last_Energy_Retrofit_Scope__c</picklist>
+            <values>
+                <fullName>HVAC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lighting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Last_year_Summer_Winter_bill_provided__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Sure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Logistics_Questionnaire_Completed__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Mineral_Report_Received__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Nominal_AC_Voltage__c</picklist>
+            <values>
+                <fullName>208%2F120 V 3-phase</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>240%2F120 V 1-phase</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>480%2F277 V 3-phase</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other - specify in notes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Occupancy_Category__c</picklist>
+            <values>
+                <fullName>I</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>III</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IV</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Own_Lease_Site__c</picklist>
+            <values>
+                <fullName>Lease</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Own</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Paved_Access_for_Truck__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Sure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Phase_II_ESA_for_Haz_Conditions__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Phase_II_ESA_for_recognized_Haz_Conditio__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Phase_I_ESA_for_Haz_Mat_Conditions__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Pre_Con_CoA_and_MM_Satisfied__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Primary_Secondary_Power__c</picklist>
+            <values>
+                <fullName>Not Sure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Primary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Secondary</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Products__c</picklist>
+            <values>
+                <fullName>GFT DG 20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GFT DG 7%2E5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GFT UPP 20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GFT UPP 7%2E5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oasis C1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oasis C7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oasis DG</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Project_Deal_Type__c</picklist>
+            <values>
+                <fullName>Deal Type I</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal Type II</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal Type III</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal Type IV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deal Type V</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Projected_Dev_Stage_end_of_this_Qtr__c</picklist>
+            <values>
+                <fullName>1 - Prospecting%2FScreening</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Early Development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Mid Development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - Late Development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 - Finalize Asset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 - Closed - Development Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7 - Closed - Development Abandoned</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Projected_Dev_Stage_end_of_this_Year__c</picklist>
+            <values>
+                <fullName>1 - Prospecting%2FScreening</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2 - Early Development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3 - Mid Development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4 - Late Development</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5 - Finalize Asset</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6 - Closed - Development Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7 - Closed - Development Abandoned</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rate_Schedule__c</picklist>
+            <values>
+                <fullName>Conectiv-AGS-P</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conectiv-AGS-S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conectiv-MGS-P</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conectiv-MGS-S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conectiv-TGS-ST</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conectiv-TGS-T</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JCP%26L-GP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JCP%26L-GS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JCP%26L-GST</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JCP%26L-GT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JCP%26L-GT-HT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JCP%26L-MD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LV-LGS 3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PG%26E-A-10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PG%26E-A-6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PG%26E-E-19</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PG%26E-E-20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PG%26E-E-25</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PG%26E-E-37</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PSE%26G-ED</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PSE%26G-GLP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PSE%26G-GLP-Night</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PSE%26G-HTS-HV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PSE%26G-HTS-S</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PSE%26G-LPLP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PSE%26G-LPLS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RECO-SC-2 General Secondary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RECO-SC-4 Public Street Lighting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RECO-SC-6 Private Lighting</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RECO-SC-7 Primary</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCE-GS-2%28TOU%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SDG%26E AL-TOU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SDG%26E-PAT-1D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMUD GS-TOU1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMUD GS-TOU2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMUD GS-TOU3</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Remoteness_Opinion__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Roof_pitch_Max_Pick_list__c</picklist>
+            <values>
+                <fullName>%C2%BC%3A12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>%C2%BD%3A12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1 %C2%BD%3A12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1 %C2%BD%3A12 - 6%3A12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>1%3A12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6%3A12- 12%3A12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Over 12%3A12</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Single_Line_Provided__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Sure</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Site_Origination__c</picklist>
+            <values>
+                <fullName>Acquisition</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Greenfield</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Site_Plan_Provided__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Site_Status__c</picklist>
+            <values>
+                <fullName>Abandoned</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Active</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Comm%2E Letter signed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Inactive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lost</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Optioned</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Purchased%2FLeased</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Qualified</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under evaluation%2Fnegotiation</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Storage_Product__c</picklist>
+            <values>
+                <fullName>GCN 250</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GCN 30</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stem PowerStore 1%2E3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stem PowerStore 1%2E4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stem PowerStore 3%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Stem PowerStore 5%2E0</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tesla PowerPack 100</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tesla PowerPack 250</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Suitable_Area_for_Crane__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Surrounding_Terrain__c</picklist>
+            <values>
+                <fullName>Open%2FGrassland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Suburban</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Urban</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Telecomm_Survey__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Title_Reports__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Title_Survey_ALTA_or_equivalent__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Topo_derived_from__c</picklist>
+            <values>
+                <fullName>Intermap</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Survey Data</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>USGS or equivalent</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type_of_Interconnection_Agreement__c</picklist>
+            <values>
+                <fullName>Net Meter</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-Export</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Unit_of_Measure__c</picklist>
+            <values>
+                <fullName>Imperial</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Metric</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Utility__c</picklist>
+            <values>
+                <fullName>APS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Alameda Municipal Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ameren</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Ameren Illinois</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>American Electric Power %28AEP%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anaheim Public Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Atlantic City Electric %28ACE%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BG%26E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Burbank W%26P</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CE Electric %28NEDL%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CE Electric %28YEDL%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canadian Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CenterPoint</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Central Hudson</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Central Networks</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Lodi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Pasadena</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Redding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Colton Electric</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ComEd</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Con Edison</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Conectiv</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Connecticut Light %26 Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Corona</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delmarva Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duke Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EDF Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Electricity North West Ltd</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Essex PL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eversource</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eversource CT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eversource EMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Eversource WMA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Glendale W%26P</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HECO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HELCO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hellenic Transmission System Operator</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hydro One</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JCP%26L</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KIUC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LADWP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MECO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Merced Irrigation District</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MidAmerican</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NSTAR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV Energy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>National Grid</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>National Grid MA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>National Grid NY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ORU</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Oncor</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other-CA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other-HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other-NJ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PAT-1D</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PECO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PEPCO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PG%26E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PNM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PPL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PSE%26G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PSE%26G Long Island</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PUC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pacific Power - Rocky Mountain Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Palo Alto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Potomac Edison</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Riverside Public Utility</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rock Hill Utilities</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Roseville Electric</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SCE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SDG%26E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SMUD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SP Manweb</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SP Power Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SRP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SSE Power Distribution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Silicon Valley Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SoCal gas</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TEP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TNMP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Terna</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Toronto Hydro Electric</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>United Illuminating Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WMECO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Western Power Distribution</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Xcel</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Voltage_of_Utility_Connection__c</picklist>
+            <values>
+                <fullName>12%2E47 kV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>208</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>26 kV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4160</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>480</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>69 kV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Water_Supply_Needs_Asst_Completed__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Which_utility_service_area_s__c</picklist>
+            <values>
+                <fullName>AES</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Arizona Public Service Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Atlantic City Electric Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Avista Corp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>BC Hyrdo</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Baltimore Gas %26 Electric Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CPS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Central Lincoln People%27s Ut Dt</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City %26 County of San Francisco</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Anaheim</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Austin</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Burbank</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Colorado Springs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Eugene</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Farmington</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Fort Collins</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Glendale</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Houston</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Lodi</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Los Angeles</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Palo Alto</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Pasadena</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Redding</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Riverside</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Roseville</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Santa Clara</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Seattle</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Tacoma</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>City of Vineland</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DTE Detroit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delmarva Power %26 Light Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duke Energy Corporation</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ENCO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Florida Power %26 Light</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawaii Electric Light Co Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hawaiian Electric Co Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Holy Cross Electric Assn%2C Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Imperial Irrigation District</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Intermountain Rural Elec Assn</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Invenergy</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JACKSONVILLE %E2%80%93 JEA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>JEANCO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jersey Central Power %26 Lt Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LADWP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LS Power</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>La Plata Electric Assn%2C Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Maui Electric Co Ltd</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Modesto Irrigation District</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Morenci Water %26 Electric Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NCEMC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NEXTLIGHT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Nevada Power Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PECO Energy Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PORTLAND GENERAL ELECTRIC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PPL Electric Utilities Corp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PSE%26G</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PacifiCorp</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pacific Gas %26 Electric Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Portland General Electric Company</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Progress Energy Carolinas Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Service Co of Colorado %28Xcel%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Service Co of NM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public Service Elec %26 Gas Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Puget Sound Energy Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sacramento Municipal Utility Dist</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Salt River Project</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>San Diego Gas %26 Electric Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sierra Pacific Power Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Snohomish County PUD No 1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Southern California Edison Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Southern Maryland Elec Coop Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sulphur Springs Valley E C Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Trico Electric Coop Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tucson Electric Power Co</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Turlock Irrigation District</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UNS Electric Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>United Power%2C Inc</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utility A</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Utility B</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>West Penn Power Co</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>X12_Row_Trackers__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>X6_Row_Trackers__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+</CustomObject>

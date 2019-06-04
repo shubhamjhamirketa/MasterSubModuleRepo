@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+        <fullName>Hold_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Hold Type</label>
+        <required>true</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>true</sorted>
+                <value>
+                    <fullName>Change of Financing</fullName>
+                    <default>false</default>
+                    <label>Change of Financing</label>
+                </value>
+                <value>
+                    <fullName>Customer Executed Remodel</fullName>
+                    <default>false</default>
+                    <label>Customer Executed Remodel</label>
+                </value>
+                <value>
+                    <fullName>Customer Executed Roof Work</fullName>
+                    <default>false</default>
+                    <label>Customer Executed Roof Work</label>
+                </value>
+                <value>
+                    <fullName>Customer Executed Tree Trim</fullName>
+                    <default>false</default>
+                    <label>Customer Executed Tree Trim</label>
+                </value>
+                <value>
+                    <fullName>Customer Executed Upgrade</fullName>
+                    <default>false</default>
+                    <label>Customer Executed Upgrade</label>
+                </value>
+                <value>
+                    <fullName>Customer Postponed Project</fullName>
+                    <default>false</default>
+                    <label>Customer Postponed Project</label>
+                </value>
+                <value>
+                    <fullName>Customer requested to cancel</fullName>
+                    <default>false</default>
+                    <label>Customer requested to cancel</label>
+                </value>
+                <value>
+                    <fullName>Customer Traveling</fullName>
+                    <default>false</default>
+                    <label>Customer Traveling</label>
+                </value>
+                <value>
+                    <fullName>Customer Unresponsive</fullName>
+                    <default>false</default>
+                    <label>Customer Unresponsive</label>
+                </value>
+                <value>
+                    <fullName>Economic Change</fullName>
+                    <default>false</default>
+                    <label>Economic Change</label>
+                </value>
+                <value>
+                    <fullName>Life event</fullName>
+                    <default>false</default>
+                    <label>Life event</label>
+                </value>
+                <value>
+                    <fullName>Missing Documents</fullName>
+                    <default>false</default>
+                    <label>Missing Documents</label>
+                </value>
+                <value>
+                    <fullName>New construction</fullName>
+                    <default>false</default>
+                    <label>New construction</label>
+                </value>
+                <value>
+                    <fullName>Not Counter-Signed</fullName>
+                    <default>false</default>
+                    <label>Not Counter-Signed</label>
+                </value>
+                <value>
+                    <fullName>Pending progress payment</fullName>
+                    <default>false</default>
+                    <label>Pending progress payment</label>
+                </value>
+                <value>
+                    <fullName>Production Update</fullName>
+                    <default>false</default>
+                    <label>Production Update</label>
+                </value>
+                <value>
+                    <fullName>Sales Executed Re-roof</fullName>
+                    <default>false</default>
+                    <label>Sales Executed Re-roof</label>
+                </value>
+                <value>
+                    <fullName>Sales Executed Tree Trim</fullName>
+                    <default>false</default>
+                    <label>Sales Executed Tree Trim</label>
+                </value>
+                <value>
+                    <fullName>System Change</fullName>
+                    <default>false</default>
+                    <label>System Change</label>
+                </value>
+                <value>
+                    <fullName>Tier3 Escalation</fullName>
+                    <default>false</default>
+                    <label>Tier3 Escalation</label>
+                </value>
+                <value>
+                    <fullName>Unpermitted Work</fullName>
+                    <default>false</default>
+                    <label>Unpermitted Work</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>

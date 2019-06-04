@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+        <fullName>Base_Price_W_USD__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>lease incentive fee dollars per watt paid to the builder</inlineHelpText>
+        <label>Base Price ($/W) USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+  <fields>
+        <fullName>Loyalty_Program_W_USD__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>lease incentive fee dollars per watt paid to the builder for participation in the loyalty program</inlineHelpText>
+        <label>Loyalty Program ($/W) USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+  <fields>
+        <fullName>NSHP_W_USD__c</fullName>
+        <description>The amount to be paid to the builder above the normal amount because the community rebate program = NSHP</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The amount to be paid to the builder above the normal amount because the community rebate program = NSHP</inlineHelpText>
+        <label>NSHP ($/W) USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+  <fields>
+        <fullName>Right_size_W_USD__c</fullName>
+        <description>The amount to be paid to the builder above the normal amount because the community is right-sized</description>
+        <externalId>false</externalId>
+        <inlineHelpText>The amount to be paid to the builder above the normal amount because the community is right-sized</inlineHelpText>
+        <label>Right size ($/W) USD</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>4</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+</CustomObject>

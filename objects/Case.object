@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+        <fullName>Partner_Name__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Partner Name</label>
+        <lookupFilter>
+            <active>true</active>
+            <errorMessage>This Account is not a Partner Account</errorMessage>
+            <filterItems>
+                <field>Account.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Partner</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Cases (Partner Name)</relationshipLabel>
+        <relationshipName>Cases1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+  <fields>
+        <fullName>Resolution_and_Closure_SLA__c</fullName>
+        <defaultValue>IF( 
+            AND( ( $Profile.Name = 'SunPower Order Management' ), ( $RecordType.DeveloperName = 'PSR_Case' ) ),
+            '10 business days',
+            null
+        )</defaultValue>
+        <description>This field is added for easier reporting purpose as SLAs and case management metric are defined within the case</description>
+        <externalId>false</externalId>
+        <label>Resolution and Closure SLA</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1 business day</fullName>
+                    <default>false</default>
+                    <label>1 business day</label>
+                </value>
+                <value>
+                    <fullName>5 business days</fullName>
+                    <default>false</default>
+                    <label>5 business days</label>
+                </value>
+                <value>
+                    <fullName>10 business days</fullName>
+                    <default>false</default>
+                    <label>10 business days</label>
+                </value>
+                <value>
+                    <fullName>30 business days</fullName>
+                    <default>false</default>
+                    <label>30 business days</label>
+                </value>
+                <value>
+                    <fullName>35 business days</fullName>
+                    <default>false</default>
+                    <label>35 business days</label>
+                </value>
+                <value>
+                    <fullName>60 business days</fullName>
+                    <default>false</default>
+                    <label>60 business days</label>
+                </value>
+                <value>
+                    <fullName>90 business days</fullName>
+                    <default>false</default>
+                    <label>90 business days</label>
+                </value>
+                <value>
+                    <fullName>260 business days</fullName>
+                    <default>false</default>
+                    <label>260 business days</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+</CustomObject>
